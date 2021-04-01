@@ -1,0 +1,5 @@
+# Resistive wall data
+# Plane (lon = 0, hor = 1, ver = 2), Length [m], Resistivity [Ohm m], Effective beam pipe radius [m]
+0 560.560644 1.68e-8 10e-3
+1 560.560644 1.68e-8 10e-3 
+2 560.560644 1.68e-8 10e-3
