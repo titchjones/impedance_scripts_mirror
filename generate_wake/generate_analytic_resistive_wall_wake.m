@@ -23,7 +23,7 @@ function struct = generate_analytic_resistive_wall_wake(file,sampling_points,bet
 
     if convolution_bunch_length ~= 0
         initial_sampling_points = sampling_points;  
-        sampling_points = linspace(min(sampling_points),max(sampling_points),length(sampling_points)+1);    
+        sampling_points = linspace(min(sampling_points),max(sampling_points),length(sampling_points)+1)';    
     end
 
     %% Create output wakes
