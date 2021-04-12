@@ -1,0 +1,5 @@
+# IW2D data
+# Plane (lon = 0, hor = 1, ver = 2), Length [m], Path to wake file, 
+0 560.560644 /dls/physics/khw79751/impedance/IW2D/circular-pipe-10mm/wake-copper-range-0.1m/WlongWDiamond-II_1layers10.00mm_round_copper_1layer.dat
+1 560.560644 /dls/physics/khw79751/impedance/IW2D/circular-pipe-10mm/wake-copper-range-0.1m/WxdipWDiamond-II_1layers10.00mm_round_copper_1layer.dat
+2 560.560644 /dls/physics/khw79751/impedance/IW2D/circular-pipe-10mm/wake-copper-range-0.1m/WydipWDiamond-II_1layers10.00mm_round_copper_1layer.dat
