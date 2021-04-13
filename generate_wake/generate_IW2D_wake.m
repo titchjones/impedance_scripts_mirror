@@ -5,7 +5,7 @@ function struct = generate_IW2D_wake(file,sampling_points,betas,convolution_bunc
     
     % Read file
     fileID = fopen(file);
-    data = textscan(fileID,'%f %f %s','CommentStyle','#');
+    data = textscan(fileID,'%f %f %s %s','CommentStyle','#');
     fclose(fileID);        
         
     % Split file for planes
