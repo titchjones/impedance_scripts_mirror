@@ -5,9 +5,9 @@
 % Resistive-wall flag: 0 = not include, 1 = analytic, 2 = IW2D
 % Geometric flag: 0 = not include, 1 = analytic, 2 = CST
 
-resistive_wall_flag = 1;
-resistive_wall_file = 'analytic_resistive_wall.txt';
-%resistive_wall_file = 'IW2D_resistive_wall.txt'; 
+resistive_wall_flag = 2;
+%resistive_wall_file = 'analytic_resistive_wall.txt';
+resistive_wall_file = 'IW2D_data_copper_10mm_34_1_1.txt'; 
 
 geometric_flag = 0;
 geometric_file = 'CST_geometric_impedance.txt';
@@ -27,14 +27,14 @@ wake_range = 0.1;
 n_points = 1e6;
 
 % Bin length to sample wake for Elegant
-elegant_bin_length = 1e-6; % Bin length
+elegant_bin_length = 10e-6; % Bin length
 
-convolution_bunch_length = 0e-3; % Bunch length to convolute longitudinal resistive-wall wake: necessary to reduce number of bins in simulation
+convolution_bunch_length = 0.1e-3; % Bunch length to convolute longitudinal resistive-wall wake: necessary to reduce number of bins in simulation
 
 %% Impedance properties
 % Unit: Hz
 
-freq_range = 2000e9;
+freq_range = 500e9;
 
 % Frequency step to sample impedance for Elegant
 elegant_freq_step = 1e6;
@@ -73,7 +73,7 @@ n_freq = length(elegant_freq_sp);
 n_freq = 2^nextpow2(n_freq)+1;
 elegant_freq_sp = linspace(0,freq_range,n_freq)';
 elegant_freq_step = elegant_freq_sp(2) - elegant_freq_sp(1);
-fprintf('Elegant frequency step is adjusted to %10e\n to have 2^(n+1) number of points\n',elegant_freq_step);
+fprintf('Elegant frequency step is adjusted to %10e\n to have 2^n+1 number of points\n',elegant_freq_step);
 
 %% Generate resitive-wall wake
 
@@ -114,10 +114,10 @@ switch resistive_wall_flag
         elegant_RW.ImpedanceRealY = RW_impedance.ImpedanceRealY;
         elegant_RW.ImpedanceImagY = RW_impedance.ImpedanceImagY;
         
-    case 2 % Wake from IW2D
+    case 2 % From IW2D
                 
         % Generate wake using n_points sampled wake
-        RW_wake = generate_IW2D_wake(resistive_wall_file,sp,beta_functions,convolution_bunch_length);            
+        RW_wake = import_IW2D_wake(resistive_wall_file,sp,beta_functions,convolution_bunch_length);            
         AT_RW = RW_wake;
                         
         % Resample convoluted wake for Elegant
@@ -129,34 +129,23 @@ switch resistive_wall_flag
         elegant_RW.WakeQY = zeros(length(elegant_sp),1);
         
         % Generate impedance for Elegant
-        %TODO
-        %RW_impedance = generate_analytic_resistive_wall_impedance(resistive_wall_file,elegant_freq_sp,beta_functions);
+        RW_impedance = import_IW2D_impedance(resistive_wall_file,elegant_freq_sp,beta_functions);
         
-%         elegant_RW.ImpedanceFreq = elegant_freq_sp;
-%         elegant_RW.ImpedanceRealZ = RW_impedance.ImpedanceRealZ;
-%         elegant_RW.ImpedanceImagZ = RW_impedance.ImpedanceImagZ;
-%         elegant_RW.ImpedanceRealX = RW_impedance.ImpedanceRealX;
-%         elegant_RW.ImpedanceImagX = RW_impedance.ImpedanceImagX;
-%         elegant_RW.ImpedanceRealY = RW_impedance.ImpedanceRealY;
-%         elegant_RW.ImpedanceImagY = RW_impedance.ImpedanceImagY;
-        
-         elegant_RW.ImpedanceFreq = zeros(length(elegant_freq_sp),1);
-        elegant_RW.ImpedanceRealZ = zeros(length(elegant_freq_sp),1);
-        elegant_RW.ImpedanceImagZ = zeros(length(elegant_freq_sp),1);
-        elegant_RW.ImpedanceRealX = zeros(length(elegant_freq_sp),1);
-        elegant_RW.ImpedanceImagX = zeros(length(elegant_freq_sp),1);
-        elegant_RW.ImpedanceRealY = zeros(length(elegant_freq_sp),1);
-        elegant_RW.ImpedanceImagY = zeros(length(elegant_freq_sp),1);
-                                    
-    otherwise
-        %AT_RW.WakeT = sp;       
+        elegant_RW.ImpedanceFreq = elegant_freq_sp;
+        elegant_RW.ImpedanceRealZ = RW_impedance.ImpedanceRealZ;
+        elegant_RW.ImpedanceImagZ = RW_impedance.ImpedanceImagZ;
+        elegant_RW.ImpedanceRealX = RW_impedance.ImpedanceRealX;
+        elegant_RW.ImpedanceImagX = RW_impedance.ImpedanceImagX;
+        elegant_RW.ImpedanceRealY = RW_impedance.ImpedanceRealY;
+        elegant_RW.ImpedanceImagY = RW_impedance.ImpedanceImagY;
+                                             
+    otherwise           
         AT_RW.WakeZ = zeros(length(sp),1);
         AT_RW.WakeDX = zeros(length(sp),1);
         AT_RW.WakeDY = zeros(length(sp),1);        
         AT_RW.WakeQX = zeros(length(sp),1);       
         AT_RW.WakeQY = zeros(length(sp),1);
-
-        %elegant_RW.WakeT = elegant_sp;    
+    
         elegant_RW.WakeZ = zeros(length(elegant_sp),1);
         elegant_RW.WakeDX = zeros(length(elegant_sp),1);
         elegant_RW.WakeDY = zeros(length(elegant_sp),1);        

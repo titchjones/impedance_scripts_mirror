@@ -1,4 +1,4 @@
-function struct = generate_IW2D_impedance(file,sampling_points,betas)
+function struct = import_IW2D_impedance(file,sampling_points,betas)
 %% Process impedanceWake2D input
 
     %% Read in data
