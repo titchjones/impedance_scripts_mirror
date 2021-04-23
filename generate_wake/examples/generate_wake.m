@@ -5,18 +5,26 @@
 % Resistive-wall flag: 0 = not include, 1 = analytic, 2 = IW2D
 % Geometric flag: 0 = not include, 1 = analytic, 2 = CST
 
-resistive_wall_flag = 2;
-%resistive_wall_file = 'analytic_resistive_wall.txt';
-resistive_wall_file = 'IW2D_data_copper_10mm_34_1_1.txt'; 
+resistive_wall_flag = 1;
+resistive_wall_file = 'analytic_resistive_wall.txt';
+%resistive_wall_file = 'IW2D_resistive_wall.txt'; 
 
 geometric_flag = 0;
-geometric_file = 'CST_geometric_impedance.txt';
+%geometric_file = 'analytic_geometric_impedance.txt';
+%geometric_file = 'CST_geometric_impedance.txt';
 
 % Beta functions for transverse normalisation
 % Beta flag: 0 = no normalisation, 1 = normalisation
 
 beta_flag = 0;
 beta_file = 'beta.txt';
+
+%% Factors to multiply wakes/impedance
+% Factors for increasing strength of wakes (mostly for testing purposes)
+
+x_factor = 1;
+y_factor = 1;
+z_factor = 1;
 
 %% Wake properties
 % Unit: m
@@ -29,7 +37,9 @@ n_points = 1e6;
 % Bin length to sample wake for Elegant
 elegant_bin_length = 10e-6; % Bin length
 
-convolution_bunch_length = 0.1e-3; % Bunch length to convolute longitudinal resistive-wall wake: necessary to reduce number of bins in simulation
+convolution_bunch_length = 3e-3; % Bunch length to convolute wake function: necessary for longitudinal resistive-wall 
+                                   % wake to reduce number of bins in simulation and for analytic longitudinal
+                                   % geometric wake to include resistive and inductive offset
 
 %% Impedance properties
 % Unit: Hz
@@ -165,44 +175,102 @@ end
 
 switch geometric_flag
     
-    case 1 % Analytic wake
-        %AT_geom = generate_analytic_geometric_wake(geometric_file,sp,beta_functions);
-        %elegant_geom = generate_analytic_geometric_wake(geometric_file,elegant_sp,beta_functions);
+    case 1 % Analytic
+        
+        % Generate wakes for AT and Elegant
+        if convolution_bunch_length ~= 0
+            
+            % Generate wake using n_points sampled wake
+            geom_wake = generate_analytic_geometric_wake(geometric_file,sp,beta_functions,convolution_bunch_length);            
+            AT_geom = geom_wake;
+                        
+            % Resample convoluted wake for Elegant
+            elegant_geom.WakeT = elegant_sp;           
+            elegant_geom.WakeZ = interp1(geom_wake.WakeT,geom_wake.WakeZ,elegant_sp);
+            elegant_geom.WakeDX = interp1(geom_wake.WakeT,geom_wake.WakeDX,elegant_sp);
+            elegant_geom.WakeDY = interp1(geom_wake.WakeT,geom_wake.WakeDY,elegant_sp);
+            elegant_geom.WakeQX = zeros(length(elegant_sp),1);       
+            elegant_geom.WakeQY = zeros(length(elegant_sp),1);  
+                    
+        else
+            AT_geom = generate_analytic_geometric_wake(geometric_file,sp,beta_functions,0);
+             
+            % Calculate wake directly using Elegant bin length
+            elegant_geom = generate_analytic_geometric_wake(geometric_file,elegant_sp,beta_functions,0);
+        end
+        
+        % Generate impedance for Elegant        
+        geom_impedance = generate_analytic_geometric_impedance(geometric_file,elegant_freq_sp,beta_functions);
+        
+        elegant_geom.ImpedanceFreq = elegant_freq_sp;
+        elegant_geom.ImpedanceRealZ = geom_impedance.ImpedanceRealZ;
+        elegant_geom.ImpedanceImagZ = geom_impedance.ImpedanceImagZ;
+        elegant_geom.ImpedanceRealX = geom_impedance.ImpedanceRealX;
+        elegant_geom.ImpedanceImagX = geom_impedance.ImpedanceImagX;
+        elegant_geom.ImpedanceRealY = geom_impedance.ImpedanceRealY;
+        elegant_geom.ImpedanceImagY = geom_impedance.ImpedanceImagY;    
         
     case 2 % Wake from CST
+               
+        % Generate wake using n_points sampled wake
+        geom_wake = import_CST_wake(geometric_file,sp,beta_functions);            
+        AT_geom = geom_wake;
+                        
+        % Resample convoluted wake for Elegant
+        elegant_geom.WakeT = elegant_sp;           
+        elegant_geom.WakeZ = interp1(geom_wake.WakeT,geom_wake.WakeZ,elegant_sp);
+        elegant_geom.WakeDX = interp1(geom_wake.WakeT,geom_wake.WakeDX,elegant_sp);
+        elegant_geom.WakeDY = interp1(geom_wake.WakeT,geom_wake.WakeDY,elegant_sp);
+        elegant_geom.WakeQX = zeros(length(elegant_sp),1);       
+        elegant_geom.WakeQY = zeros(length(elegant_sp),1);
         
-        AT_geom = import_CST_wake(geometric_file,sp,beta_functions);
-        elegant_geom = import_CST_wake(geometric_file,elegant_sp,beta_functions);       
+        % Generate impedance for Elegant
+        geom_impedance = import_CST_impedance(geometric_file,elegant_freq_sp,beta_functions);
+        
+        elegant_geom.ImpedanceFreq = elegant_freq_sp;
+        elegant_geom.ImpedanceRealZ = geom_impedance.ImpedanceRealZ;
+        elegant_geom.ImpedanceImagZ = geom_impedance.ImpedanceImagZ;
+        elegant_geom.ImpedanceRealX = geom_impedance.ImpedanceRealX;
+        elegant_geom.ImpedanceImagX = geom_impedance.ImpedanceImagX;
+        elegant_geom.ImpedanceRealY = geom_impedance.ImpedanceRealY;
+        elegant_geom.ImpedanceImagY = geom_impedance.ImpedanceImagY;
+                                             
                             
-    otherwise
-        %AT_geom.WakeT = sp;       
+    otherwise      
         AT_geom.WakeZ = zeros(length(sp),1);
         AT_geom.WakeDX = zeros(length(sp),1);
         AT_geom.WakeDY = zeros(length(sp),1);        
         AT_geom.WakeQX = zeros(length(sp),1);       
         AT_geom.WakeQY = zeros(length(sp),1);
-
-        %elegant_geom.WakeT = elegant_sp;    
+  
         elegant_geom.WakeZ = zeros(length(elegant_sp),1);
         elegant_geom.WakeDX = zeros(length(elegant_sp),1);
         elegant_geom.WakeDY = zeros(length(elegant_sp),1);        
         elegant_geom.WakeQX = zeros(length(elegant_sp),1);       
-        elegant_geom.WakeQY = zeros(length(elegant_sp),1);    
+        elegant_geom.WakeQY = zeros(length(elegant_sp),1);
+        
+        elegant_geom.ImpedanceFreq = zeros(length(elegant_freq_sp),1);
+        elegant_geom.ImpedanceRealZ = zeros(length(elegant_freq_sp),1);
+        elegant_geom.ImpedanceImagZ = zeros(length(elegant_freq_sp),1);
+        elegant_geom.ImpedanceRealX = zeros(length(elegant_freq_sp),1);
+        elegant_geom.ImpedanceImagX = zeros(length(elegant_freq_sp),1);
+        elegant_geom.ImpedanceRealY = zeros(length(elegant_freq_sp),1);
+        elegant_geom.ImpedanceImagY = zeros(length(elegant_freq_sp),1);        
 end
     
 %% Combine structs into single wake
 
 AT_WakeT = sp;
-AT_WakeZ = AT_RW.WakeZ + AT_geom.WakeZ;
-AT_WakeDX = AT_RW.WakeDX + AT_geom.WakeDX;
-AT_WakeDY = AT_RW.WakeDY + AT_geom.WakeDY;
+AT_WakeZ = (AT_RW.WakeZ + AT_geom.WakeZ).*z_factor;
+AT_WakeDX = (AT_RW.WakeDX + AT_geom.WakeDX).*x_factor;
+AT_WakeDY = (AT_RW.WakeDY + AT_geom.WakeDY).*y_factor;
 AT_WakeQX = AT_RW.WakeQX + AT_geom.WakeQX;
 AT_WakeQY = AT_RW.WakeQY + AT_geom.WakeQY;
 
 elegant_WakeT = elegant_sp;
-elegant_WakeZ = elegant_RW.WakeZ + elegant_geom.WakeZ;
-elegant_WakeDX = elegant_RW.WakeDX + elegant_geom.WakeDX;
-elegant_WakeDY = elegant_RW.WakeDY + elegant_geom.WakeDY;
+elegant_WakeZ = (elegant_RW.WakeZ + elegant_geom.WakeZ).*z_factor;
+elegant_WakeDX = (elegant_RW.WakeDX + elegant_geom.WakeDX).*x_factor;
+elegant_WakeDY = (elegant_RW.WakeDY + elegant_geom.WakeDY).*y_factor;
 elegant_WakeQX = elegant_RW.WakeQX + elegant_geom.WakeQX;
 elegant_WakeQY = elegant_RW.WakeQY + elegant_geom.WakeQY;
 
@@ -210,12 +278,12 @@ elegant_WakeQY = elegant_RW.WakeQY + elegant_geom.WakeQY;
 % TODO Add geometric impedance
 
 elegant_ImpedanceFreq = elegant_freq_sp;
-elegant_ImpedanceRealZ = elegant_RW.ImpedanceRealZ;
-elegant_ImpedanceImagZ = elegant_RW.ImpedanceImagZ;
-elegant_ImpedanceRealX = elegant_RW.ImpedanceRealX;
-elegant_ImpedanceImagX = elegant_RW.ImpedanceImagX;
-elegant_ImpedanceRealY = elegant_RW.ImpedanceRealY;
-elegant_ImpedanceImagY = elegant_RW.ImpedanceImagY;
+elegant_ImpedanceRealZ = (elegant_RW.ImpedanceRealZ + elegant_geom.ImpedanceRealZ).*z_factor;
+elegant_ImpedanceImagZ = (elegant_RW.ImpedanceImagZ + elegant_geom.ImpedanceImagZ).*z_factor;
+elegant_ImpedanceRealX = (elegant_RW.ImpedanceRealX + elegant_geom.ImpedanceRealX).*x_factor;
+elegant_ImpedanceImagX = (elegant_RW.ImpedanceImagX + elegant_geom.ImpedanceImagX).*x_factor;
+elegant_ImpedanceRealY = (elegant_RW.ImpedanceRealY + elegant_geom.ImpedanceRealY).*y_factor;
+elegant_ImpedanceImagY = (elegant_RW.ImpedanceImagY + elegant_geom.ImpedanceImagY).*y_factor;
 
 %% Save txt file for import onto AT
 
@@ -293,10 +361,10 @@ plot(elegant_ImpedanceFreq.*1e-9,elegant_ImpedanceImagZ,'.')
 xlabel('Frequency [GHz]')
 ylabel('Imag lon. impedance [Ohm]')
 
-%% Save mat file
+%% Save mat files
 save('wake.mat','AT_WakeT','AT_WakeZ','AT_WakeDX','AT_WakeDY','AT_WakeQX','AT_WakeQY','elegant_WakeT','elegant_WakeZ','elegant_WakeDX','elegant_WakeDY','elegant_WakeQX','elegant_WakeQY');
 
-
+save('impedance.mat','elegant_ImpedanceFreq','elegant_ImpedanceRealZ','elegant_ImpedanceImagZ','elegant_ImpedanceRealX','elegant_ImpedanceImagX','elegant_ImpedanceRealY','elegant_ImpedanceImagY');
 
 % %% Create output wakes
 % 
