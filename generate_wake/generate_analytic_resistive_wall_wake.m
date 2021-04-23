@@ -86,31 +86,31 @@ function struct = generate_analytic_resistive_wall_wake(file,sampling_points,bet
         WakeDY = WakeDY + wake; 
     end
 
-%% Convolute wake
+    %% Convolute wake
 
-if convolution_bunch_length ~= 0
+    if convolution_bunch_length ~= 0
 
-    conv_lon_wake = convolute(sampling_points,WakeZ,convolution_bunch_length);
-    conv_hor_wake = convolute(sampling_points,WakeDX,convolution_bunch_length);     
-    conv_ver_wake = convolute(sampling_points,WakeDY,convolution_bunch_length); 
-    
-    % Changing sampling points back to initial points
-    WakeZ = interp1(sampling_points,conv_lon_wake,initial_sampling_points);
-    WakeDX = interp1(sampling_points,conv_hor_wake,initial_sampling_points);
-    WakeDY = interp1(sampling_points,conv_ver_wake,initial_sampling_points);
-    
-    sampling_points = initial_sampling_points;
-    
-end
+        conv_lon_wake = convolute(sampling_points,WakeZ,convolution_bunch_length);
+        conv_hor_wake = convolute(sampling_points,WakeDX,convolution_bunch_length);     
+        conv_ver_wake = convolute(sampling_points,WakeDY,convolution_bunch_length); 
 
-%% Create output struct
+        % Changing sampling points back to initial points
+        WakeZ = interp1(sampling_points,conv_lon_wake,initial_sampling_points);
+        WakeDX = interp1(sampling_points,conv_hor_wake,initial_sampling_points);
+        WakeDY = interp1(sampling_points,conv_ver_wake,initial_sampling_points);
 
-struct.WakeT = sampling_points;
-struct.WakeZ = WakeZ;
-struct.WakeDX = WakeDX;
-struct.WakeDY = WakeDY;     
-struct.WakeQX = zeros(length(sampling_points),1); 
-struct.WakeQY = zeros(length(sampling_points),1);   
+        sampling_points = initial_sampling_points;
+
+    end
+
+    %% Create output struct
+
+    struct.WakeT = sampling_points;
+    struct.WakeZ = WakeZ;
+    struct.WakeDX = WakeDX;
+    struct.WakeDY = WakeDY;     
+    struct.WakeQX = zeros(length(sampling_points),1); 
+    struct.WakeQY = zeros(length(sampling_points),1);   
 
 end
 

@@ -19,13 +19,6 @@ function struct = generate_analytic_resistive_wall_impedance(file,sampling_point
     index = find(data(:,1) == 2);    
     data_ver = data(index,:);
 
-%     %% If convolution, even number of points required for numerical convolution to work correctly
-% 
-%     if convolution_bunch_length ~= 0
-%         initial_sampling_points = sampling_points;  
-%         sampling_points = linspace(min(sampling_points),max(sampling_points),length(sampling_points)+1)';    
-%     end
-
     %% Create output wakes
     
     ImpedanceFreq = zeros(length(sampling_points),1);
@@ -91,32 +84,15 @@ function struct = generate_analytic_resistive_wall_impedance(file,sampling_point
         %WakeDY = WakeDY + wake; 
     end
 
-%% Convolute wake
-% 
-% if convolution_bunch_length ~= 0
-% 
-%     conv_lon_wake = convolute(sampling_points,WakeZ,convolution_bunch_length);
-%     conv_hor_wake = convolute(sampling_points,WakeDX,convolution_bunch_length);     
-%     conv_ver_wake = convolute(sampling_points,WakeDY,convolution_bunch_length); 
-%     
-%     % Changing sampling points back to initial points
-%     WakeZ = interp1(sampling_points,conv_lon_wake,initial_sampling_points);
-%     WakeDX = interp1(sampling_points,conv_hor_wake,initial_sampling_points);
-%     WakeDY = interp1(sampling_points,conv_ver_wake,initial_sampling_points);
-%     
-%     sampling_points = initial_sampling_points;
-%     
-% end
+    %% Create output struct
 
-%% Create output struct
-
-struct.ImpedanceFreq = sampling_points;
-struct.ImpedanceRealZ = ImpedanceRealZ;
-struct.ImpedanceImagZ = ImpedanceImagZ;
-struct.ImpedanceRealX = ImpedanceRealX;
-struct.ImpedanceImagX = ImpedanceImagX;
-struct.ImpedanceRealY = ImpedanceRealY;
-struct.ImpedanceImagY = ImpedanceImagY;
+    struct.ImpedanceFreq = sampling_points;
+    struct.ImpedanceRealZ = ImpedanceRealZ;
+    struct.ImpedanceImagZ = ImpedanceImagZ;
+    struct.ImpedanceRealX = ImpedanceRealX;
+    struct.ImpedanceImagX = ImpedanceImagX;
+    struct.ImpedanceRealY = ImpedanceRealY;
+    struct.ImpedanceImagY = ImpedanceImagY;
 
 end
 
@@ -144,30 +120,30 @@ function Z = lon_RW_impedance(sampling_points,rho,beff,RW_length)
     
 end
 
-function wake = trans_RW_wake(sampling_points,rho,beff,RW_length)
-% Based on equation 25 in Skripka et al. 'Simultaneous computation of intrabunch and interbunch collective beam motions in storage rings'
-% Multiplied with s0 since missing in formula
-% The equation is the wake function per length unit
-
-    clight = 299792458;
-    Z0 = 376.730313669; % Impedance of free space
-
-    %s = linspace(-wake_range,wake_range,n_points);
-    s = sampling_points;
-
-    s0 = (2.*beff.^2.*rho./Z0).^(1./3);
-    tau0 = s0./clight;
-
-    wake = zeros(length(s),1);        
-               
-    % Find index of s >= 0               
-    index = find(s>=0);
-        
-    tau = s(index)./clight;                
-    f = @(x) -exp(-x.^2.*tau./tau0)./(x.^6+8);
-        
-    % Negative sign on wake necessary to get detuning in tracking
-    wake(index) = -s0.*8.*Z0.*clight/(pi.*beff.^4).*(1./12.* (-exp(-tau./tau0).*cos(sqrt(3).*tau./tau0) + sqrt(3).*exp(-tau./tau0).*sin(sqrt(3).*tau./tau0) ) - sqrt(2)./pi.*integral(f,0,inf,'ArrayValued',true)).*RW_length;
-        
-end
+% function wake = trans_RW_wake(sampling_points,rho,beff,RW_length)
+% % Based on equation 25 in Skripka et al. 'Simultaneous computation of intrabunch and interbunch collective beam motions in storage rings'
+% % Multiplied with s0 since missing in formula
+% % The equation is the wake function per length unit
+% 
+%    clight = 299792458;
+%    Z0 = 376.730313669; % Impedance of free space
+% 
+%    %s = linspace(-wake_range,wake_range,n_points);
+%    s = sampling_points;
+% 
+%    s0 = (2.*beff.^2.*rho./Z0).^(1./3);
+%    tau0 = s0./clight;
+% 
+%    wake = zeros(length(s),1);        
+%               
+%    % Find index of s >= 0               
+%    index = find(s>=0);
+%        
+%    tau = s(index)./clight;                
+%    f = @(x) -exp(-x.^2.*tau./tau0)./(x.^6+8);
+%        
+%    % Negative sign on wake necessary to get detuning in tracking
+%    wake(index) = -s0.*8.*Z0.*clight/(pi.*beff.^4).*(1./12.* (-exp(-tau./tau0).*cos(sqrt(3).*tau./tau0) + sqrt(3).*exp(-tau./tau0).*sin(sqrt(3).*tau./tau0) ) - sqrt(2)./pi.*integral(f,0,inf,'ArrayValued',true)).*RW_length;
+%        
+% end
 

@@ -18,13 +18,6 @@ function struct = import_IW2D_impedance(file,sampling_points,betas)
     index = find(data{1} == 2);       
     data_ver = cellfun(@(v)v (index),data,'UniformOutput',false);    
     
-%     %% If convolution, even number of points required for numerical convolution to work correctly
-% 
-%     if convolution_bunch_length ~= 0
-%         initial_sampling_points = sampling_points;  
-%         sampling_points = linspace(min(sampling_points),max(sampling_points),length(sampling_points)+1)';    
-%     end
-
     %% Create output wakes
 
     ImpedanceFreq = zeros(length(sampling_points),1);
@@ -43,10 +36,7 @@ function struct = import_IW2D_impedance(file,sampling_points,betas)
             
         lon_impedance = importdata(filename);
         lon_impedance = lon_impedance.data;
-                                
-%         % Make the wake equally spaced
-%         lon_wake = make_equally_spaced(lon_wake); 
-        
+                                      
         % Resample impedance
         impedance_real = interp1(lon_impedance(:,1),lon_impedance(:,2),sampling_points,'linear',0);
         impedance_imag = interp1(lon_impedance(:,1),lon_impedance(:,3),sampling_points,'linear',0);        
@@ -127,69 +117,15 @@ function struct = import_IW2D_impedance(file,sampling_points,betas)
 %         WakeDY = WakeDY + wake;        
         
     end
-    
-% %% Convolute wake
-% 
-% if convolution_bunch_length ~= 0
-% 
-%     conv_lon_wake = convolute(sampling_points,WakeZ,convolution_bunch_length);
-%     conv_hor_wake = convolute(sampling_points,WakeDX,convolution_bunch_length);     
-%     conv_ver_wake = convolute(sampling_points,WakeDY,convolution_bunch_length); 
-%     
-%     % Changing sampling points back to initial points
-%     WakeZ = interp1(sampling_points,conv_lon_wake,initial_sampling_points);
-%     WakeDX = interp1(sampling_points,conv_hor_wake,initial_sampling_points);
-%     WakeDY = interp1(sampling_points,conv_ver_wake,initial_sampling_points);
-%     
-%     sampling_points = initial_sampling_points;
-%     
-% end
 
-%% Create output struct
+    %% Create output struct
 
-struct.ImpedanceFreq = sampling_points;
-struct.ImpedanceRealZ = ImpedanceRealZ;
-struct.ImpedanceImagZ = ImpedanceImagZ;
-struct.ImpedanceRealX = ImpedanceRealX;
-struct.ImpedanceImagX = ImpedanceImagX;
-struct.ImpedanceRealY = ImpedanceRealY;
-struct.ImpedanceImagY = ImpedanceImagY;
-
-end
-
-%%%%%%%%%%%%%%%%% Format IW2D input %%%%%%%%%%%%%%%%%%%%%%
-
-
-function new_wake = make_equally_spaced(wake)
-
-s = wake(:,1);
-values = wake(:,2);
-
-% Find index closes to zero
-[value, index] = min(abs(s));
-
-% Find values of index next to zero
-low_index = index - 1;
-high_index = index + 1;
-
-low_value = values(low_index);
-high_value = values(high_index);
-
-mean_value = (low_value+high_value)./2;
-
-% Replace these three points with a single point at zero
-new_values = values;
-new_values(index) = mean_value;
-
-new_s = s;
-new_s(index) = 0;
-
-new_values(low_index) = [];
-new_values(index) = [];
-
-new_s(low_index) = [];
-new_s(index) = [];
-
-new_wake = cat(2,new_s,new_values);
+    struct.ImpedanceFreq = sampling_points;
+    struct.ImpedanceRealZ = ImpedanceRealZ;
+    struct.ImpedanceImagZ = ImpedanceImagZ;
+    struct.ImpedanceRealX = ImpedanceRealX;
+    struct.ImpedanceImagX = ImpedanceImagX;
+    struct.ImpedanceRealY = ImpedanceRealY;
+    struct.ImpedanceImagY = ImpedanceImagY;
 
 end
