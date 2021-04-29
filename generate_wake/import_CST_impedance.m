@@ -49,10 +49,9 @@ function struct = import_CST_impedance(file,sampling_points,betas)
         impedance_real = interp1(freq,real_impedance,sampling_points,'linear',0);
         impedance_imag = interp1(freq,imag_impedance,sampling_points,'linear',0);
         
-        % Put DC components to zero
-        % TODO: check why this is necessary
+        % Put imaginary DC component to zero since required by Elegant
         index = find(freq == 0);
-        impedance_real(index) = 0; 
+%        impedance_real(index) = 0; 
         impedance_imag(index) = 0;        
         
         ImpedanceRealZ = ImpedanceRealZ + impedance_real;
