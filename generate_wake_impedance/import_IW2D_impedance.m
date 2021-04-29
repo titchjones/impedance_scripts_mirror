@@ -42,9 +42,9 @@ function struct = import_IW2D_impedance(file,sampling_points,betas)
         impedance_imag = interp1(lon_impedance(:,1),lon_impedance(:,3),sampling_points,'linear',0);        
         
         % Multiply impedance with length
-        impedance_real  = impedance_real .*RW_length;        
-        impedance_imag  = impedance_imag .*RW_length;
-        
+        impedance_real  = impedance_real.*RW_length;        
+        impedance_imag  = impedance_imag.*RW_length;
+       
         ImpedanceRealZ = ImpedanceRealZ + impedance_real;
         ImpedanceImagZ = ImpedanceImagZ + impedance_imag;          
                                                                                                                
