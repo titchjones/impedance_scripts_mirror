@@ -16,7 +16,7 @@ geometric_flag = 0;
 % Beta functions for transverse normalisation
 % Beta flag: 0 = no normalisation, 1 = normalisation
 
-beta_flag = 0;
+beta_flag = 1;
 beta_file = 'beta.txt';
 
 %% Factors to multiply wakes/impedance
@@ -52,11 +52,9 @@ elegant_freq_step = 1e6;
 %% Interpolate beta functions for transverse normalisation 
 
 if beta_flag == 1
-    beta_functions = interpolate_beta();
+    beta_functions = interpolate_beta(beta_file);
 else
-    %TODO
-    beta_functions.betax = 1;
-    beta_functions.betay = 1;
+    beta_functions = struct([]);
 end
 
 %% Generate sampling points
@@ -275,7 +273,6 @@ elegant_WakeQX = elegant_RW.WakeQX + elegant_geom.WakeQX;
 elegant_WakeQY = elegant_RW.WakeQY + elegant_geom.WakeQY;
 
 %% Combine structs into single impedance
-% TODO Add geometric impedance
 
 elegant_ImpedanceFreq = elegant_freq_sp;
 elegant_ImpedanceRealZ = (elegant_RW.ImpedanceRealZ + elegant_geom.ImpedanceRealZ).*z_factor;
@@ -301,23 +298,41 @@ fclose(fileID);
 clight = 299792458;
 time = elegant_WakeT./clight; % Change to time to match Elegant conventions
 lon_wake = elegant_WakeZ; % Sign to match Elegant conventions
+hor_wake = -elegant_WakeDX; % Sign to match Elegant conventions
+ver_wake = -elegant_WakeDY; % Sign to match Elegant conventions
 
 fileID = fopen('elegant_wake.txt','w');
 for i = 1:length(time)
-    fprintf(fileID,'%10e %10e\n',time(i),lon_wake(i));
+    fprintf(fileID,'%10e %10e %10e %10e\n',time(i),lon_wake(i),hor_wake(i),ver_wake(i));
 end
 fclose(fileID);
-system('plaindata2sdds elegant_wake.txt wake_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Time,double,units=s  -column=WakeZ,double,units=V/C');
-delete('elegant_wake.txt');
+system('plaindata2sdds elegant_wake.txt wake_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Time,double,units=s  -column=WakeZ,double,units=V/C -column=WakeDX,double,units=V/C/m -column=WakeDY,double,units=V/C/m');
+delete('elegant_wake.txt')
 
 % Impedance file
-fileID = fopen('elegant_impedance.txt','w');
+% fileID = fopen('elegant_impedance.txt','w');
+% for i = 1:length(elegant_ImpedanceFreq)
+%     fprintf(fileID,'%10e %10e %10e\n',elegant_ImpedanceFreq(i),elegant_ImpedanceRealZ(i),elegant_ImpedanceImagZ(i));
+% end
+% fclose(fileID);
+% system('plaindata2sdds elegant_impedance.txt impedance_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Freq,double,units=Hz  -column=RealZ,double,units=Ohm -column=ImagZ,double,units=Ohm');
+% delete('elegant_impedance.txt');
+
+fileID = fopen('elegant_real_impedance.txt','w');
 for i = 1:length(elegant_ImpedanceFreq)
-    fprintf(fileID,'%10e %10e %10e\n',elegant_ImpedanceFreq(i),elegant_ImpedanceRealZ(i),elegant_ImpedanceImagZ(i));
+    fprintf(fileID,'%10e %10e\n',elegant_ImpedanceFreq(i),elegant_ImpedanceRealZ(i));
 end
 fclose(fileID);
-system('plaindata2sdds elegant_impedance.txt impedance_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Freq,double,units=Hz  -column=RealZ,double,units=Ohm -column=ImagZ,double,units=Ohm');
-delete('elegant_impedance.txt');
+system('plaindata2sdds elegant_real_impedance.txt impedance_real_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Freq,double,units=Hz  -column=RealZ,double,units=Ohm');
+delete('elegant_real_impedance.txt');
+
+fileID = fopen('elegant_imag_impedance.txt','w');
+for i = 1:length(elegant_ImpedanceFreq)
+    fprintf(fileID,'%10e %10e\n',elegant_ImpedanceFreq(i),elegant_ImpedanceImagZ(i));
+end
+fclose(fileID);
+system('plaindata2sdds elegant_imag_impedance.txt impedance_imag_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Freq,double,units=Hz  -column=ImagZ,double,units=Ohm');
+delete('elegant_imag_impedance.txt');
 
 %% Plot wakes
 
@@ -330,23 +345,23 @@ xlabel('s [m]')
 ylabel('Longitudinal wake [V/C]')
 legend('AT','Elegant')
 
-% figure(2)
-% plot(AT_WakeT,AT_WakeDX,'.')
-% hold on
-% plot(elegant_WakeT,elegant_WakeDX,'.')
-% hold off
-% xlabel('s [m]')
-% ylabel('Horizontal wake [V/C/m]')
-% legend('AT','Elegant')
-% 
-% figure(3)
-% plot(AT_WakeT,AT_WakeDY,'.')
-% hold on
-% plot(elegant_WakeT,elegant_WakeDY,'.')
-% hold off
-% xlabel('s [m]')
-% ylabel('Vertical wake [V/C/m]')
-% legend('AT','Elegant')
+figure(2)
+plot(AT_WakeT,AT_WakeDX,'.')
+hold on
+plot(elegant_WakeT,elegant_WakeDX,'.')
+hold off
+xlabel('s [m]')
+ylabel('Horizontal wake [V/C/m]')
+legend('AT','Elegant')
+
+figure(3)
+plot(AT_WakeT,AT_WakeDY,'.')
+hold on
+plot(elegant_WakeT,elegant_WakeDY,'.')
+hold off
+xlabel('s [m]')
+ylabel('Vertical wake [V/C/m]')
+legend('AT','Elegant')
 
 %% Plot impedance
 
@@ -365,68 +380,3 @@ ylabel('Imag lon. impedance [Ohm]')
 save('wake.mat','AT_WakeT','AT_WakeZ','AT_WakeDX','AT_WakeDY','AT_WakeQX','AT_WakeQY','elegant_WakeT','elegant_WakeZ','elegant_WakeDX','elegant_WakeDY','elegant_WakeQX','elegant_WakeQY');
 
 save('impedance.mat','elegant_ImpedanceFreq','elegant_ImpedanceRealZ','elegant_ImpedanceImagZ','elegant_ImpedanceRealX','elegant_ImpedanceImagX','elegant_ImpedanceRealY','elegant_ImpedanceImagY');
-
-% %% Create output wakes
-% 
-% WakeT = linspace(-wake_range, wake_range, n_points)';
-% WakeZ = zeros(n_points,1);
-% WakeDX = zeros(n_points,1);
-% WakeDY = zeros(n_points,1);
-% WakeQX = zeros(n_points,1);
-% WakeQY = zeros(n_points,1);
-% 
-% 
-% %% Beta functions for transverse normalisation
-% 
-% % Load beta data
-% 
-% load(ring_name);
-% 
-% [twissdata,~] = atx(THERING);
-% beta_data = [cat(1,twissdata.SPos),cat(1,twissdata.beta)];
-% 
-% % Make data unique
-% 
-% [~,index,~] = unique(beta_data(:,1));
-% beta_data = beta_data(index,:);
-% 
-% % Interpolate data for better resolution
-% 
-% sq = linspace(min(beta_data(:,1)),max(beta_data(:,1)),1e4);
-% 
-% betax = interp1(beta_data(:,1),beta_data(:,2),sq,'linear');
-% betay = interp1(beta_data(:,1),beta_data(:,3),sq,'linear');
-% 
-% % Fit function to interpolated data
-% 
-% fit_betax = fit(sq',betax','linearinterp');
-% fit_betay = fit(sq',betay','linearinterp');
-% 
-% % Plot figures for checks
-% 
-% % figure(1)
-% % plot(beta_data(:,1),beta_data(:,2),'.')
-% % hold on
-% % %plot(sq,betax,'.')
-% % plot(sq,fit_betax(sq))
-% % hold off
-% % 
-% % figure(2)
-% % plot(beta_data(:,1),beta_data(:,3),'.')
-% % hold on
-% % plot(sq,fit_betay(sq))
-% % hold off
-% 
-% %% Create output wakes
-% 
-% WakeT = linspace(-wake_range, wake_range, n_points)';
-% WakeZ = zeros(n_points,1);
-% WakeDX = zeros(n_points,1);
-% WakeDY = zeros(n_points,1);
-% WakeQX = zeros(n_points,1);
-% WakeQY = zeros(n_points,1);
-% 
-% 
-
-
-
