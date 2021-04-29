@@ -53,16 +53,19 @@ function struct = import_IW2D_wake(file,sampling_points,betas,convolution_bunch_
                              
     end
         
-    % Horizontal wake
+    %% Horizontal wake
 
-%     % Calculate average horizontal beta over element lengths       
-%     element_length = data_hor(:,2);
-%     element_s = [0, cumsum(element_length)]';         
-%     average_betax = zeros(1,length(element_s)-1);         
-%     for i = 1:length(element_s)-1                   
-%         average_betax(i) = integrate(beta_struct.betax,element_s(i+1),element_s(i))./element_length(i);            
-%     end
-%
+    if ~isempty(betas)
+        % Calculate average horizontal beta over element lengths       
+        element_length = data_hor{2}(i);
+        element_s = [0, cumsum(element_length)]';         
+        average_betax = zeros(1,length(element_s)-1);         
+        for i = 1:length(element_s)-1                   
+            average_betax(i) = integrate(betas.betax,element_s(i+1),element_s(i))./element_length(i);            
+        end
+    else
+        average_betax = 1;
+    end
 
     for i = 1:size(data_hor,1)
         
@@ -82,21 +85,23 @@ function struct = import_IW2D_wake(file,sampling_points,betas,convolution_bunch_
         % conventions
         wake = -wake.*RW_length;
         
-%        WakeDX = WakeDX + wake.*average_betax(i);
-        WakeDX = WakeDX + wake;
+        WakeDX = WakeDX + wake.*average_betax(i);
                             
     end
                
-    % Vertical wake
+    %% Vertical wake
     
-%     % Calculate average vertical beta over element lengths       
-%     element_length = data_ver(:,2);
-%     element_s = [0, cumsum(element_length)]';
-%     average_betay = zeros(1,length(element_s)-1);
-%     for i = 1:length(element_s)-1                   
-%         average_betay(i) = integrate(beta_struct.betay,element_s(i+1),element_s(i))./element_length(i);            
-%     end 
-%
+    if ~isempty(betas)   
+        % Calculate average vertical beta over element lengths       
+        element_length = data_ver{2}(i);
+        element_s = [0, cumsum(element_length)]';
+        average_betay = zeros(1,length(element_s)-1);
+        for i = 1:length(element_s)-1                   
+            average_betay(i) = integrate(betas.betay,element_s(i+1),element_s(i))./element_length(i);            
+        end
+    else
+       average_betay = 1; 
+    end
 
     for i = 1:size(data_ver,1)
         
@@ -116,8 +121,7 @@ function struct = import_IW2D_wake(file,sampling_points,betas,convolution_bunch_
         % conventions
         wake = -wake.*RW_length;
         
-%        WakeDX = WakeDX + wake.*average_betay(i);
-        WakeDY = WakeDY + wake;        
+        WakeDY = WakeDY + wake.*average_betay(i);      
         
     end
     
@@ -146,6 +150,8 @@ function struct = import_IW2D_wake(file,sampling_points,betas,convolution_bunch_
     struct.WakeDY = WakeDY;     
     struct.WakeQX = zeros(length(sampling_points),1); 
     struct.WakeQY = zeros(length(sampling_points),1);
+    struct.average_betax = average_betax;
+    struct.average_betay = average_betay;      
 
 end
 
