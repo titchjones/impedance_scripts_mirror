@@ -28,96 +28,115 @@ function struct = import_IW2D_impedance(file,sampling_points,betas)
     ImpedanceRealY = zeros(length(sampling_points),1);
     ImpedanceImagY = zeros(length(sampling_points),1);     
     
-    %% Longitudinal wake
-    for i = 1:size(data_lon,1)
+    %% Longitudinal impedance
+    
+    fprintf('Reading IW2D impedance files\n');
+    
+    fprintf('Reading longitudinal files\n');
+    for i = 1:size(data_lon{1},1)
         
         RW_length = data_lon{2}(i);
         filename = char(data_lon{4}(i));
-            
-        lon_impedance = importdata(filename);
-        lon_impedance = lon_impedance.data;
-                                      
-        % Resample impedance
-        impedance_real = interp1(lon_impedance(:,1),lon_impedance(:,2),sampling_points,'linear',0);
-        impedance_imag = interp1(lon_impedance(:,1),lon_impedance(:,3),sampling_points,'linear',0);        
         
-        % Multiply impedance with length
-        impedance_real  = impedance_real.*RW_length;        
-        impedance_imag  = impedance_imag.*RW_length;
-       
-        ImpedanceRealZ = ImpedanceRealZ + impedance_real;
-        ImpedanceImagZ = ImpedanceImagZ + impedance_imag;          
+        if ~isempty(filename)
+            lon_impedance = importdata(filename);
+            lon_impedance = lon_impedance.data;
+
+            % Resample impedance
+            impedance_real = interp1(lon_impedance(:,1),lon_impedance(:,2),sampling_points,'linear',0);
+            impedance_imag = interp1(lon_impedance(:,1),lon_impedance(:,3),sampling_points,'linear',0);        
+
+            % Multiply impedance with length
+            impedance_real  = impedance_real.*RW_length;        
+            impedance_imag  = impedance_imag.*RW_length;
+
+            ImpedanceRealZ = ImpedanceRealZ + impedance_real;
+            ImpedanceImagZ = ImpedanceImagZ + impedance_imag;
+        end
                                                                                                                
     end
+    fprintf('Finished reading longitudinal files. Read %d lines.\n\n',i);
         
-    % Horizontal wake
+    %% Horizontal impedance
 
-%     % Calculate average horizontal beta over element lengths       
-%     element_length = data_hor(:,2);
-%     element_s = [0, cumsum(element_length)]';         
-%     average_betax = zeros(1,length(element_s)-1);         
-%     for i = 1:length(element_s)-1                   
-%         average_betax(i) = integrate(beta_struct.betax,element_s(i+1),element_s(i))./element_length(i);            
-%     end
-%
+    if ~isempty(betas)                
+        % Calculate average horizontal beta over element lengths       
+        element_length = data_hor{2};
+        element_s = [0; cumsum(element_length)]';         
+        average_betax = zeros(1,length(element_s)-1);         
+        for i = 1:length(element_s)-1                   
+            average_betax(i) = integrate(betas.betax,element_s(i+1),element_s(i))./element_length(i);            
+        end
+    else
+        average_betax = 1;
+    end
 
-    for i = 1:size(data_hor,1)
+    fprintf('Reading horizontal files\n');
+    for i = 1:size(data_hor{1},1)
         
         RW_length = data_hor{2}(i);
-        filename = char(data_hor{3}(i));
-            
-%         hor_wake = importdata(filename);
-%         hor_wake = hor_wake.data;
-%                        
-%         % Make the wake equally spaced
-%         hor_wake = make_equally_spaced(hor_wake); 
-%         
-%         % Resample wake
-%         wake = interp1(hor_wake(:,1),hor_wake(:,2),sampling_points,'linear',0);  
-%                                                     
-%         % Multiply wake with length and change sign to to fit with AT
-%         % conventions
-%         wake = -wake.*RW_length;
-%         
-% %        WakeDX = WakeDX + wake.*average_betax(i);
-%         WakeDX = WakeDX + wake;
-                            
-    end
+        filename = char(data_hor{4}(i));
+        
+        hor_impedance = importdata(filename);
+        hor_impedance = hor_impedance.data;
+        
+        % Resample impedance
+        impedance_real_interp = interp1(hor_impedance(:,1),hor_impedance(:,2),sampling_points,'linear',0);
+        impedance_imag_interp = interp1(hor_impedance(:,1),hor_impedance(:,3),sampling_points,'linear',0);
+        
+        % Multiply impedance with length and change parts and signs to
+        % match Elegant conventions
+        % Elegant imaginary = - real IW2D
+        % Elegant real = imaginary IW2D
+        impedance_real  = impedance_imag_interp.*RW_length;        
+        impedance_imag  = -impedance_real_interp.*RW_length;
                
-    % Vertical wake
+        ImpedanceRealX = ImpedanceRealX + impedance_real.*average_betax(i);
+        ImpedanceImagX = ImpedanceImagX + impedance_imag.*average_betax(i);        
+                                 
+    end
+    fprintf('Finished reading horizontal files. Read %d lines.\n\n',i);
     
-%     % Calculate average vertical beta over element lengths       
-%     element_length = data_ver(:,2);
-%     element_s = [0, cumsum(element_length)]';
-%     average_betay = zeros(1,length(element_s)-1);
-%     for i = 1:length(element_s)-1                   
-%         average_betay(i) = integrate(beta_struct.betay,element_s(i+1),element_s(i))./element_length(i);            
-%     end 
-%
+    %% Vertical impedance
+    
+    if ~isempty(betas)                
+        % Calculate average horizontal beta over element lengths       
+        element_length = data_ver{2};
+        element_s = [0; cumsum(element_length)]';         
+        average_betay = zeros(1,length(element_s)-1);         
+        for i = 1:length(element_s)-1                   
+            average_betay(i) = integrate(betas.betay,element_s(i+1),element_s(i))./element_length(i);            
+        end
+    else
+        average_betay = 1;
+    end
 
-    for i = 1:size(data_ver,1)
+    fprintf('Reading vertical files\n');
+    for i = 1:size(data_ver{1},1)
         
         RW_length = data_ver{2}(i);
-        filename = char(data_ver{3}(i));
-            
-%         ver_wake = importdata(filename);
-%         ver_wake = ver_wake.data;
-%                        
-%         % Make the wake equally spaced
-%         ver_wake = make_equally_spaced(ver_wake); 
-%         
-%         % Resample wake
-%         wake = interp1(ver_wake(:,1),ver_wake(:,2),sampling_points,'linear',0);  
-%                                                     
-%         % Multiply wake with length and change sign to to fit with AT
-%         % conventions
-%         wake = -wake.*RW_length;
-%         
-% %        WakeDX = WakeDX + wake.*average_betay(i);
-%         WakeDY = WakeDY + wake;        
+        filename = char(data_ver{4}(i));
+                    
+        ver_impedance = importdata(filename);
+        ver_impedance = ver_impedance.data;
+        
+        % Resample impedance
+        impedance_real_interp = interp1(ver_impedance(:,1),ver_impedance(:,2),sampling_points,'linear',0);
+        impedance_imag_interp = interp1(ver_impedance(:,1),ver_impedance(:,3),sampling_points,'linear',0);
+        
+        % Multiply impedance with length and change parts and signs to
+        % match Elegant conventions
+        % Elegant imaginary = - real IW2D
+        % Elegant real = imaginary IW2D
+        impedance_real  = impedance_imag_interp.*RW_length;         
+        impedance_imag  = -impedance_real_interp.*RW_length;
+                      
+        ImpedanceRealY = ImpedanceRealY + impedance_real.*average_betay(i);
+        ImpedanceImagY = ImpedanceImagY + impedance_imag.*average_betay(i);          
         
     end
-
+    fprintf('Finished reading vertical files. Read %d lines.\n\n',i);
+    
     %% Create output struct
 
     struct.ImpedanceFreq = sampling_points;
