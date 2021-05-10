@@ -99,16 +99,18 @@ switch resistive_wall_flag
             % Resample convoluted wake for Elegant
             elegant_RW.WakeT = elegant_sp;           
             elegant_RW.WakeZ = interp1(RW_wake.WakeT,RW_wake.WakeZ,elegant_sp);
-            elegant_RW.WakeDX = interp1(RW_wake.WakeT,RW_wake.WakeDX,elegant_sp);
-            elegant_RW.WakeDY = interp1(RW_wake.WakeT,RW_wake.WakeDY,elegant_sp);
+            elegant_RW.WakeDX = -interp1(RW_wake.WakeT,RW_wake.WakeDX,elegant_sp); % Change sign to match Elegant conventions
+            elegant_RW.WakeDY = -interp1(RW_wake.WakeT,RW_wake.WakeDY,elegant_sp); % Change sign to match Elegant conventions
             elegant_RW.WakeQX = zeros(length(elegant_sp),1);       
-            elegant_RW.WakeQY = zeros(length(elegant_sp),1);    
+            elegant_RW.WakeQY = zeros(length(elegant_sp),1);      
                     
         else
             AT_RW = generate_analytic_resistive_wall_wake(resistive_wall_file,sp,beta_functions,0);
              
             % Calculate wake directly using Elegant bin length
             elegant_RW = generate_analytic_resistive_wall_wake(resistive_wall_file,elegant_sp,beta_functions,0);
+            elegant_RW.WakeDX = -elegant_RW.WakeDX; % Change sign to match Elegant conventions
+            elegant_RW.WakeDY = -elegant_RW.WakeDY; % Change sign to match Elegant conventions
         end
         
         % Generate impedance for Elegant
@@ -131,8 +133,8 @@ switch resistive_wall_flag
         % Resample convoluted wake for Elegant
         elegant_RW.WakeT = elegant_sp;           
         elegant_RW.WakeZ = interp1(RW_wake.WakeT,RW_wake.WakeZ,elegant_sp);
-        elegant_RW.WakeDX = interp1(RW_wake.WakeT,RW_wake.WakeDX,elegant_sp);
-        elegant_RW.WakeDY = interp1(RW_wake.WakeT,RW_wake.WakeDY,elegant_sp);
+        elegant_RW.WakeDX = -interp1(RW_wake.WakeT,RW_wake.WakeDX,elegant_sp); % Change sign to match Elegant conventions
+        elegant_RW.WakeDY = -interp1(RW_wake.WakeT,RW_wake.WakeDY,elegant_sp); % Change sign to match Elegant conventions
         elegant_RW.WakeQX = zeros(length(elegant_sp),1);       
         elegant_RW.WakeQY = zeros(length(elegant_sp),1);
         
@@ -298,8 +300,10 @@ fclose(fileID);
 clight = 299792458;
 time = elegant_WakeT./clight; % Change to time to match Elegant conventions
 lon_wake = elegant_WakeZ; % Sign to match Elegant conventions
-hor_wake = -elegant_WakeDX; % Sign to match Elegant conventions
-ver_wake = -elegant_WakeDY; % Sign to match Elegant conventions
+% hor_wake = -elegant_WakeDX; % Sign to match Elegant conventions
+% ver_wake = -elegant_WakeDY; % Sign to match Elegant conventions
+hor_wake = elegant_WakeDX;
+ver_wake = elegant_WakeDY;
 
 fileID = fopen('elegant_wake.txt','w');
 for i = 1:length(time)
@@ -333,6 +337,14 @@ end
 fclose(fileID);
 system('plaindata2sdds elegant_imag_impedance.txt impedance_imag_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Freq,double,units=Hz  -column=ImagZ,double,units=Ohm');
 delete('elegant_imag_impedance.txt');
+
+fileID = fopen('elegant_transverse_impedance.txt','w');
+for i = 1:length(elegant_ImpedanceFreq)
+    fprintf(fileID,'%10e %10e %10e %10e %10e\n',elegant_ImpedanceFreq(i),elegant_ImpedanceRealX(i),elegant_ImpedanceImagX(i),elegant_ImpedanceRealY(i),elegant_ImpedanceImagY(i));
+end
+fclose(fileID);
+system('plaindata2sdds elegant_transverse_impedance.txt impedance_transverse_elegant.sdds -inputMode=ascii -outputMode=ascii -separator=" " -noRowCount -column=Freq,double,units=Hz  -column=RealX,double,units=Ohm/m -column=ImagX,double,units=Ohm/m -column=RealY,double,units=Ohm/m -column=ImagY,double,units=Ohm/m');
+delete('elegant_transverse_impedance.txt');
 
 %% Plot wakes
 
@@ -375,6 +387,28 @@ subplot(212)
 plot(elegant_ImpedanceFreq.*1e-9,elegant_ImpedanceImagZ,'.')
 xlabel('Frequency [GHz]')
 ylabel('Imag lon. impedance [Ohm]')
+
+figure(5)
+subplot(211)
+plot(elegant_ImpedanceFreq.*1e-9,elegant_ImpedanceRealX,'.')
+xlabel('Frequency [GHz]')
+ylabel('Real hor. impedance [Ohm]')
+
+subplot(212)
+plot(elegant_ImpedanceFreq.*1e-9,elegant_ImpedanceImagX,'.')
+xlabel('Frequency [GHz]')
+ylabel('Imag hor. impedance [Ohm]')
+
+figure(6)
+subplot(211)
+plot(elegant_ImpedanceFreq.*1e-9,elegant_ImpedanceRealY,'.')
+xlabel('Frequency [GHz]')
+ylabel('Real ver. impedance [Ohm]')
+
+subplot(212)
+plot(elegant_ImpedanceFreq.*1e-9,elegant_ImpedanceImagY,'.')
+xlabel('Frequency [GHz]')
+ylabel('Imag ver. impedance [Ohm]')
 
 %% Save mat files
 save('wake.mat','AT_WakeT','AT_WakeZ','AT_WakeDX','AT_WakeDY','AT_WakeQX','AT_WakeQY','elegant_WakeT','elegant_WakeZ','elegant_WakeDX','elegant_WakeDY','elegant_WakeQX','elegant_WakeQY');
