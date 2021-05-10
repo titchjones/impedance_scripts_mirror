@@ -5,7 +5,7 @@ function struct = import_CST_wake(file,sampling_points,betas)
 
     % Read file
     fileID = fopen(file);
-    data = textscan(fileID,'%f %f %s','CommentStyle','#');
+    data = textscan(fileID,'%f %f %s %s','CommentStyle','#');
     fclose(fileID);        
 
     % Split file for planes
@@ -29,47 +29,67 @@ function struct = import_CST_wake(file,sampling_points,betas)
     
     fprintf('Reading CST wake files\n'); 
        
-    fprintf('Reading longitudinal files\n');    
-    for i = 1:size(data_lon,1)
+    fprintf('Reading longitudinal files\n');
+    for i = 1:size(data_lon{1},1)
         
         filename = char(data_lon{3}(i));
-             
-        lon_wake = importdata(filename);
-        lon_wake = lon_wake.data;
         
-        % Change units to mm and V/C and sign to match AT conventions
-        s = lon_wake(:,1).*1e-3;
-        wake = -lon_wake(:,2).*1e12;
-        
-        % Resample at sample points
-        new_wake = interp1(s,wake,sampling_points,'linear',0);  
-        WakeZ = WakeZ + new_wake;
+        if ~isempty(filename)
+            fileID = fopen(filename);
+            data = textscan(fileID,'%f %f','CommentStyle','#');
+            fclose(fileID);          
+            lon_wake = cell2mat(data);  % Units mm, V/pC
+
+            % Change units to mm and V/C and sign to match AT conventions
+            s = lon_wake(:,1).*1e-3;
+            wake = -lon_wake(:,2).*1e12;
+
+            % Resample at sample points
+            new_wake = interp1(s,wake,sampling_points,'linear',0);  
+            WakeZ = WakeZ + new_wake;
+        end
 
     end
-    fprintf('Finished reading longitudinal files\n');
+    fprintf('Finished reading longitudinal files. Read %d lines.\n\n',i);
     
         
-    % Horizontal wake
-
-%     % Calculate average horizontal beta over element lengths       
-%     element_length = data_hor(:,2);
-%     element_s = [0, cumsum(element_length)]';         
-%     average_betax = zeros(1,length(element_s)-1);         
-%     for i = 1:length(element_s)-1                   
-%         average_betax(i) = integrate(beta_struct.betax,element_s(i+1),element_s(i))./element_length(i);            
+    %% Horizontal wake
+    
+%     if ~isempty(betas)
+%         % Calculate average horizontal beta over element lengths       
+%         element_length = data_hor{2}(i);
+%         element_s = [0, cumsum(element_length)]';         
+%         average_betax = zeros(1,length(element_s)-1);         
+%         for i = 1:length(element_s)-1                   
+%             average_betax(i) = integrate(betas.betax,element_s(i+1),element_s(i))./element_length(i);            
+%         end
+%     else
+%         average_betax = 1;
 %     end
 %     
+%     fprintf('Reading horizontal files\n');    
 %     for i = 1:size(data_hor,1)
 %         
-% %         RW_length = data_hor(i,2);
-% %         rho = data_hor(i,3);
-% %         beff = data_hor(i,4); 
-% %         
-% %         wake = trans_RW_wake(sampling_points,rho,beff,RW_length);
-% %         %WakeDX = WakeDX + wake.*average_betax(i);
-% %         WakeDX = WakeDX + wake;
-%     end    
-        
+%         filename = char(data_hor{3}(i));
+%         
+%         if ~isempty(filename) 
+%         
+%             % TODO: change importdata
+%             %hor_wake = importdata(filename);
+%             %hor_wake = hor_wake.data;
+% 
+%     %         % Change units to mm and V/C and sign to match AT conventions
+%     %         s = lon_wake(:,1).*1e-3;
+%     %         wake = -lon_wake(:,2).*1e12;
+%     %         
+%     %         % Resample at sample points
+%     %         new_wake = interp1(s,wake,sampling_points,'linear',0);  
+%     %         WakeZ = WakeZ + new_wake;
+%         end
+% 
+%     end
+%     fprintf('Finished reading horizontal files\n');    
+             
     % Vertical wake
     
 %     % Calculate average vertical beta over element lengths       

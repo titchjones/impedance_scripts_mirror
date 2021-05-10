@@ -32,33 +32,37 @@ function struct = import_CST_impedance(file,sampling_points,betas)
     
     fprintf('Reading CST impedance files\n');
     
-    fprintf('Reading longitudinal files\n');    
-    for i = 1:size(data_lon,1)
+    fprintf('Reading longitudinal files\n');
+    for i = 1:size(data_lon{1},1)
         
         filename = char(data_lon{4}(i));
-             
-        lon_impedance = importdata(filename);
-        lon_impedance = lon_impedance.data;
         
-        % Change units to Hz
-        freq = lon_impedance(:,1).*1e9;
-        real_impedance = lon_impedance(:,2);
-        imag_impedance = lon_impedance(:,3);
-        
-        % Resample impedance
-        impedance_real = interp1(freq,real_impedance,sampling_points,'linear',0);
-        impedance_imag = interp1(freq,imag_impedance,sampling_points,'linear',0);
-        
-        % Put imaginary DC component to zero since required by Elegant
-        index = find(freq == 0);
-%        impedance_real(index) = 0; 
-        impedance_imag(index) = 0;        
-        
-        ImpedanceRealZ = ImpedanceRealZ + impedance_real;
-        ImpedanceImagZ = ImpedanceImagZ + impedance_imag;  
+        if ~isempty(filename)
+            fileID = fopen(filename);
+            data = textscan(fileID,'%f %f %f','CommentStyle','#');
+            fclose(fileID);          
+            lon_impedance = cell2mat(data);  % Units GHz, Ohm
+
+            % Change units to Hz
+            freq = lon_impedance(:,1).*1e9;
+            real_impedance = lon_impedance(:,2);
+            imag_impedance = lon_impedance(:,3);
+
+            % Resample impedance
+            impedance_real = interp1(freq,real_impedance,sampling_points,'linear',0);
+            impedance_imag = interp1(freq,imag_impedance,sampling_points,'linear',0);
+
+            % Put imaginary DC component to zero since required by Elegant
+            index = find(freq == 0);
+    %        impedance_real(index) = 0; 
+            impedance_imag(index) = 0;        
+
+            ImpedanceRealZ = ImpedanceRealZ + impedance_real;
+            ImpedanceImagZ = ImpedanceImagZ + impedance_imag;
+        end
 
     end
-    fprintf('Finished reading longitudinal files\n');    
+    fprintf('Finished reading longitudinal files. Read %d lines.\n\n',i);    
     
 %     for i = 1:size(data_lon,1)
 %         
