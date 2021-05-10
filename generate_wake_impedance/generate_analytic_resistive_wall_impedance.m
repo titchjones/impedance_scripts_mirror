@@ -42,46 +42,55 @@ function struct = generate_analytic_resistive_wall_impedance(file,sampling_point
 
     end
     
-    % Horizontal wake
+    %% Horizontal impedance
 
-%     % Calculate average horizontal beta over element lengths       
-%     element_length = data_hor(:,2);
-%     element_s = [0, cumsum(element_length)]';         
-%     average_betax = zeros(1,length(element_s)-1);         
-%     for i = 1:length(element_s)-1                   
-%         average_betax(i) = integrate(beta_struct.betax,element_s(i+1),element_s(i))./element_length(i);            
-%     end
-%     
+    if ~isempty(betas)
+        % Calculate average horizontal beta over element lengths       
+        element_length = data_hor(:,2);
+        element_s = [0; cumsum(element_length)]';         
+        average_betax = zeros(1,length(element_s)-1);         
+        for i = 1:length(element_s)-1                   
+            average_betax(i) = integrate(betas.betax,element_s(i+1),element_s(i))./element_length(i);            
+        end
+    else
+        average_betax = 1;
+    end
+    
     for i = 1:size(data_hor,1)
         
         RW_length = data_hor(i,2);
         rho = data_hor(i,3);
-        beff = data_hor(i,4); 
+        beff = data_hor(i,4);
         
-        %wake = trans_RW_wake(sampling_points,rho,beff,RW_length);
-        %WakeDX = WakeDX + wake.*average_betax(i);
-        %WakeDX = WakeDX + wake;
+        impedance = trans_RW_impedance(sampling_points,rho,beff,RW_length);   
+        ImpedanceRealX = ImpedanceRealX + real(impedance).*average_betax(i);
+        ImpedanceImagX = ImpedanceImagX + imag(impedance).*average_betax(i);  
+       
     end    
         
-    % Vertical wake
+    %% Vertical impedance
     
-%     % Calculate average vertical beta over element lengths       
-%     element_length = data_ver(:,2);
-%     element_s = [0, cumsum(element_length)]';
-%     average_betay = zeros(1,length(element_s)-1);
-%     for i = 1:length(element_s)-1                   
-%         average_betay(i) = integrate(beta_struct.betay,element_s(i+1),element_s(i))./element_length(i);            
-%     end 
-%     
+    if ~isempty(betas)   
+        % Calculate average vertical beta over element lengths       
+        element_length = data_ver(:,2);
+        element_s = [0; cumsum(element_length)]';
+        average_betay = zeros(1,length(element_s)-1);
+        for i = 1:length(element_s)-1                   
+            average_betay(i) = integrate(betas.betay,element_s(i+1),element_s(i))./element_length(i);            
+        end
+    else
+       average_betay = 1; 
+    end
+    
     for i = 1:size(data_ver,1)
         
         RW_length = data_ver(i,2);
         rho = data_ver(i,3);
         beff = data_ver(i,4);
         
-       % wake = trans_RW_wake(sampling_points,rho,beff,RW_length);
-        %WakeDY = WakeDY + wake.*average_betay(i); 
-        %WakeDY = WakeDY + wake; 
+        impedance = trans_RW_impedance(sampling_points,rho,beff,RW_length);   
+        ImpedanceRealY = ImpedanceRealY + real(impedance).*average_betay(i);
+        ImpedanceImagY = ImpedanceImagY + imag(impedance).*average_betay(i); 
     end
 
     %% Create output struct
@@ -120,30 +129,24 @@ function Z = lon_RW_impedance(sampling_points,rho,beff,RW_length)
     
 end
 
-% function wake = trans_RW_wake(sampling_points,rho,beff,RW_length)
-% % Based on equation 25 in Skripka et al. 'Simultaneous computation of intrabunch and interbunch collective beam motions in storage rings'
-% % Multiplied with s0 since missing in formula
-% % The equation is the wake function per length unit
-% 
-%    clight = 299792458;
-%    Z0 = 376.730313669; % Impedance of free space
-% 
-%    %s = linspace(-wake_range,wake_range,n_points);
-%    s = sampling_points;
-% 
-%    s0 = (2.*beff.^2.*rho./Z0).^(1./3);
-%    tau0 = s0./clight;
-% 
-%    wake = zeros(length(s),1);        
-%               
-%    % Find index of s >= 0               
-%    index = find(s>=0);
-%        
-%    tau = s(index)./clight;                
-%    f = @(x) -exp(-x.^2.*tau./tau0)./(x.^6+8);
-%        
-%    % Negative sign on wake necessary to get detuning in tracking
-%    wake(index) = -s0.*8.*Z0.*clight/(pi.*beff.^4).*(1./12.* (-exp(-tau./tau0).*cos(sqrt(3).*tau./tau0) + sqrt(3).*exp(-tau./tau0).*sin(sqrt(3).*tau./tau0) ) - sqrt(2)./pi.*integral(f,0,inf,'ArrayValued',true)).*RW_length;
-%        
-% end
+function Z = trans_RW_impedance(sampling_points,rho,beff,RW_length)
+% Based of equation 3 in Smaluk et al., "Beam-based model of broad-band
+% impedance of the Diamond Light Source"
+% This equation doesn't include the low frequency behaviour(?)
+% The equation is the impedance per length unit
+% Sign of imaginary part changed to fit with Elegant conventions
+% DC components set to zero
 
+    clight = 299792458;
+    Z0 = 376.730313669; % Impedance of free space
+    
+    omega = 2.*pi.*sampling_points;
+    skin_depth = sqrt(2.*clight.*rho./(Z0.*abs(omega)));
+    
+    Z = (sign(omega)-1i).*(Z0.*skin_depth./(2.*pi.*beff.^3)).*RW_length;
+    
+    % Set DC components to zero
+    index = find(omega == 0);
+    Z(index) = 0;
+    
+end
