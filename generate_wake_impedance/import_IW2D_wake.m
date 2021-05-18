@@ -104,7 +104,7 @@ function struct = import_IW2D_wake(file,sampling_points,betas,convolution_bunch_
     %% Vertical wake
     
     if ~isempty(betas)                
-        % Calculate average horizontal beta over element lengths       
+        % Calculate average vertical beta over element lengths       
         element_length = data_ver{2};
         element_s = [0; cumsum(element_length)]';         
         average_betay = zeros(1,length(element_s)-1);         
