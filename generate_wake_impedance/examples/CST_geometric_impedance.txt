@@ -1,4 +1,6 @@
 # CST data
 # Plane (lon = 0, hor = 1, ver = 2), Length [m], Path to wake file
-0 0 bpm2_option3_wz.txt bpm2_option3_pec_impz.txt
+0 560.560644 bpm2_option3_pec_wz.txt bpm2_option3_pec_impz.txt
+1 560.560644 bpm2_option3_pec_wx.txt bpm2_option3_pec_impx.txt
+2 560.560644 bpm2_option3_pec_wy.txt bpm2_option3_pec_impy.txt
 

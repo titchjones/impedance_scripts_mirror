@@ -9,9 +9,9 @@ resistive_wall_flag = 1;
 resistive_wall_file = 'analytic_resistive_wall.txt';
 %resistive_wall_file = 'IW2D_resistive_wall.txt'; 
 
-geometric_flag = 0;
+geometric_flag = 2;
 %geometric_file = 'analytic_geometric_impedance.txt';
-%geometric_file = 'CST_geometric_impedance.txt';
+geometric_file = 'CST_geometric_impedance.txt';
 
 % Beta functions for transverse normalisation
 % Beta flag: 0 = no normalisation, 1 = normalisation
@@ -40,7 +40,7 @@ n_points = 1e6;
 % Bin length to sample wake for Elegant
 elegant_bin_length = 10e-6; % Bin length
 
-convolution_bunch_length = 0e-3; % Bunch length to convolute wake function: necessary for longitudinal resistive-wall 
+convolution_bunch_length = 3e-3; % Bunch length to convolute wake function: necessary for longitudinal resistive-wall 
                                    % wake to reduce number of bins in simulation and for analytic longitudinal
                                    % geometric wake to include resistive and inductive offset
 
