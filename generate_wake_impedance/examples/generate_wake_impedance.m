@@ -11,13 +11,13 @@ resistive_wall_file = 'analytic_resistive_wall.txt';
 
 geometric_flag = 2;
 %geometric_file = 'analytic_geometric_impedance.txt';
-geometric_file = 'CST_geometric_impedance.txt';
+geometric_file = 'geometric_openIDS_noNEG.txt';
 
 % Beta functions for transverse normalisation
 % Beta flag: 0 = no normalisation, 1 = normalisation
 
 beta_flag = 1;
-beta_file = 'beta.txt';
+beta_file = 'beta_100_1nC.txt';
 
 %% Factors to multiply wakes/impedance
 % Factors for increasing strength of wakes (mostly for testing purposes)
@@ -30,7 +30,7 @@ z_factor = 1;
 % Unit: m
 
 % Flag if wake should be generated or not
-wake_flag = 1;
+wake_flag = 0;
 
 wake_range = 0.1;
 
@@ -53,7 +53,7 @@ impedance_flag = 1;
 freq_range = 100e9;
 
 % Frequency step to sample impedance for Elegant
-elegant_freq_step = 1e6;
+elegant_freq_step = 1e7;
 
 %% Interpolate beta functions for transverse normalisation 
 

@@ -1,6 +1,8 @@
 %% Process impedance database
 
-impedance_lattice_openIDs_noNEG = impedance_M_H6BA_34_1_1(0,0);
+impedance_database_dir = 'E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database';
+
+impedance_lattice_openIDs_noNEG = impedance_BR_11_Booster(0,3, impedance_database_dir);
 
 %% Create statistics
 

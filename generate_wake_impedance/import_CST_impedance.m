@@ -82,6 +82,7 @@ function struct = import_CST_impedance(file,sampling_points,betas)
     for i = 1:size(data_hor{1},1)
         
         filename = char(data_hor{4}(i));
+        fprintf(filename);
         
         if ~isempty(filename)
             fileID = fopen(filename);
