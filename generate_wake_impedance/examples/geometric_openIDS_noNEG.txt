@@ -1,48 +1,9 @@
-1 0.300000000000000  
-2 0.300000000000000  
-0 0.300000000000000  
-1 0.300000000000000  
-2 0.300000000000000  
-0 0.300000000000000  
-1 0.200000000000000  
-2 0.200000000000000  
-0 0.200000000000000  
-1 0.300000000000000  
-2 0.300000000000000  
-0 0.300000000000000  
-1 0.050000000000000  
-2 0.050000000000000  
-0 0.050000000000000  
-1 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impx.txt
-2 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impy.txt
-0 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impz.txt
-1 0.050000000000000  
-2 0.050000000000000  
-0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.300000000000000  
-2 0.300000000000000  
-0 0.300000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.300000000000000  
-2 0.300000000000000  
-0 0.300000000000000  
-1 0.300000000000000  
-2 0.300000000000000  
-0 0.300000000000000  
-1 0.200000000000000  
-2 0.200000000000000  
-0 0.200000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.345739000000000  
+2 0.345739000000000  
+0 0.345739000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
@@ -73,27 +34,18 @@
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 1.000000000000000  
-2 1.000000000000000  
-0 1.000000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.040000000000000  
-2 0.040000000000000  
-0 0.040000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
+1 0.035000000000000  
+2 0.035000000000000  
+0 0.035000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 1.140020000000000  
+2 1.140020000000000  
+0 1.140020000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
@@ -103,9 +55,9 @@
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
@@ -115,9 +67,9 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
 1 0.077500000000000  
 2 0.077500000000000  
 0 0.077500000000000  
@@ -130,51 +82,33 @@
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000  
+2 0.150000000000000  
+0 0.150000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
@@ -187,33 +121,24 @@
 1 0.040000000000000  
 2 0.040000000000000  
 0 0.040000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
-1 0.021600000000000  
-2 0.021600000000000  
-0 0.021600000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
+1 0.046600000000000  
+2 0.046600000000000  
+0 0.046600000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.035000000000000  
+2 0.035000000000000  
+0 0.035000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -226,9 +151,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -244,27 +169,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -277,9 +193,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -295,27 +211,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -328,9 +235,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -346,27 +253,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -379,9 +277,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -397,15 +295,12 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.013100000000000  
+2 0.013100000000000  
+0 0.013100000000000  
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
@@ -424,9 +319,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -442,27 +337,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -475,9 +361,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -493,27 +379,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -526,9 +403,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -544,27 +421,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -577,9 +445,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -595,24 +463,57 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
+1 1.300000000000000  
+2 1.300000000000000  
+0 1.300000000000000  
+1 0.040900000000000  
+2 0.040900000000000  
+0 0.040900000000000  
+1 0.075000000000000  
+2 0.075000000000000  
+0 0.075000000000000  
+1 0.034100000000000  
+2 0.034100000000000  
+0 0.034100000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
+1 0.034100000000000  
+2 0.034100000000000  
+0 0.034100000000000  
+1 0.075000000000000  
+2 0.075000000000000  
+0 0.075000000000000  
+1 0.040900000000000  
+2 0.040900000000000  
+0 0.040900000000000  
+1 1.300000000000000  
+2 1.300000000000000  
+0 1.300000000000000  
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.075000000000000  
+2 0.075000000000000  
+0 0.075000000000000  
+1 0.038100000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Ceramic\\boosterII_ceramic_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Ceramic\\boosterII_ceramic_impx.txt
+2 0.038100000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Ceramic\\boosterII_ceramic_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Ceramic\\boosterII_ceramic_impy.txt
+0 0.038100000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Ceramic\\boosterII_ceramic_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Ceramic\\boosterII_ceramic_impz.txt
 1 0.061900000000000  
 2 0.061900000000000  
 0 0.061900000000000  
@@ -628,9 +529,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -646,75 +547,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
-1 0.038100000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_impx.txt
-2 0.038100000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_impx.txt
-0 0.038100000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_impz.txt
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
-1 1.300000000000000  
-2 1.300000000000000  
-0 1.300000000000000  
-1 0.040900000000000  
-2 0.040900000000000  
-0 0.040900000000000  
-1 0.075000000000000  
-2 0.075000000000000  
-0 0.075000000000000  
-1 0.034100000000000  
-2 0.034100000000000  
-0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
-1 0.034100000000000  
-2 0.034100000000000  
-0 0.034100000000000  
-1 0.075000000000000  
-2 0.075000000000000  
-0 0.075000000000000  
-1 0.040900000000000  
-2 0.040900000000000  
-0 0.040900000000000  
-1 1.300000000000000  
-2 1.300000000000000  
-0 1.300000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -727,9 +571,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -745,27 +589,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -778,9 +613,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -796,27 +631,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -829,9 +655,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -847,27 +673,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -880,9 +697,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -898,15 +715,12 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.013100000000000  
+2 0.013100000000000  
+0 0.013100000000000  
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
@@ -925,9 +739,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -943,27 +757,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -976,9 +781,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -994,27 +799,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1027,9 +823,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1045,27 +841,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1078,9 +865,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1096,48 +883,33 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.052900000000000  
-2 0.052900000000000  
-0 0.052900000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.156000000000000  
+2 0.156000000000000  
+0 0.156000000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.077500000000000  
 2 0.077500000000000  
 0 0.077500000000000  
@@ -1150,51 +922,33 @@
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000  
+2 0.150000000000000  
+0 0.150000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
@@ -1207,9 +961,9 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
 1 0.077500000000000  
 2 0.077500000000000  
 0 0.077500000000000  
@@ -1219,9 +973,9 @@
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
@@ -1231,15 +985,12 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.150000000000000  
-2 0.150000000000000  
-0 0.150000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.175022000000000  
+2 0.175022000000000  
+0 0.175022000000000  
 1 0.300000000000000  
 2 0.300000000000000  
 0 0.300000000000000  
@@ -1249,21 +1000,15 @@
 1 0.300000000000000  
 2 0.300000000000000  
 0 0.300000000000000  
-1 0.015000000000000  
-2 0.015000000000000  
-0 0.015000000000000  
-1 0.150000000000000  
-2 0.150000000000000  
-0 0.150000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
+1 0.165000000000000  
+2 0.165000000000000  
+0 0.165000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.035000000000000  
+2 0.035000000000000  
+0 0.035000000000000  
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
@@ -1294,30 +1039,18 @@
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
+1 0.150000000000000  
+2 0.150000000000000  
+0 0.150000000000000  
 1 0.300000000000000  
 2 0.300000000000000  
 0 0.300000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.078750000000000  
-2 0.078750000000000  
-0 0.078750000000000  
+1 0.128750000000000  
+2 0.128750000000000  
+0 0.128750000000000  
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
@@ -1333,36 +1066,24 @@
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
-1 0.078750000000000  
-2 0.078750000000000  
-0 0.078750000000000  
-1 0.200000000000000  
-2 0.200000000000000  
-0 0.200000000000000  
-1 0.050000000000000  
-2 0.050000000000000  
-0 0.050000000000000  
-1 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impx.txt
-2 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impy.txt
-0 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impz.txt
+1 0.620227000000000  
+2 0.620227000000000  
+0 0.620227000000000  
+1 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impx_pec.txt
+2 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impy_pec.txt
+0 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impz_pec.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
 1 1.670000000000000  
 2 1.670000000000000  
 0 1.670000000000000  
-1 0.030000000000000  
-2 0.030000000000000  
-0 0.030000000000000  
-1 0.200000000000000  
-2 0.200000000000000  
-0 0.200000000000000  
-1 0.185000000000000  
-2 0.185000000000000  
-0 0.185000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.415000000000000  
+2 0.415000000000000  
+0 0.415000000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
@@ -1393,27 +1114,18 @@
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.040000000000000  
-2 0.040000000000000  
-0 0.040000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 1.000000000000000  
-2 1.000000000000000  
-0 1.000000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
+1 0.035000000000000  
+2 0.035000000000000  
+0 0.035000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 1.140020000000000  
+2 1.140020000000000  
+0 1.140020000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
@@ -1423,9 +1135,9 @@
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
@@ -1435,9 +1147,9 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
 1 0.077500000000000  
 2 0.077500000000000  
 0 0.077500000000000  
@@ -1450,51 +1162,33 @@
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000  
+2 0.150000000000000  
+0 0.150000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
@@ -1507,33 +1201,24 @@
 1 0.040000000000000  
 2 0.040000000000000  
 0 0.040000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
-1 0.021600000000000  
-2 0.021600000000000  
-0 0.021600000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
+1 0.046600000000000  
+2 0.046600000000000  
+0 0.046600000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.035000000000000  
+2 0.035000000000000  
+0 0.035000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1546,9 +1231,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1564,27 +1249,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1597,9 +1273,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1615,27 +1291,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1648,9 +1315,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1666,27 +1333,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1699,9 +1357,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1717,15 +1375,12 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.013100000000000  
+2 0.013100000000000  
+0 0.013100000000000  
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
@@ -1744,9 +1399,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1762,27 +1417,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1795,9 +1441,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1813,27 +1459,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1846,9 +1483,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1864,27 +1501,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -1897,9 +1525,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1915,24 +1543,57 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
+1 1.300000000000000  
+2 1.300000000000000  
+0 1.300000000000000  
+1 0.040900000000000  
+2 0.040900000000000  
+0 0.040900000000000  
+1 0.075000000000000  
+2 0.075000000000000  
+0 0.075000000000000  
+1 0.034100000000000  
+2 0.034100000000000  
+0 0.034100000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
+1 0.034100000000000  
+2 0.034100000000000  
+0 0.034100000000000  
+1 0.075000000000000  
+2 0.075000000000000  
+0 0.075000000000000  
+1 0.040900000000000  
+2 0.040900000000000  
+0 0.040900000000000  
+1 1.300000000000000  
+2 1.300000000000000  
+0 1.300000000000000  
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.075000000000000  
+2 0.075000000000000  
+0 0.075000000000000  
+1 0.038100000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Ceramic\\boosterII_ceramic_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Ceramic\\boosterII_ceramic_impx.txt
+2 0.038100000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Ceramic\\boosterII_ceramic_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Ceramic\\boosterII_ceramic_impy.txt
+0 0.038100000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Ceramic\\boosterII_ceramic_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Ceramic\\boosterII_ceramic_impz.txt
 1 0.061900000000000  
 2 0.061900000000000  
 0 0.061900000000000  
@@ -1948,9 +1609,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -1966,75 +1627,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
-1 0.038100000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_impx.txt
-2 0.038100000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_impx.txt
-0 0.038100000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Ceramic\\boosterII_ceramic_impz.txt
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
-1 1.300000000000000  
-2 1.300000000000000  
-0 1.300000000000000  
-1 0.040900000000000  
-2 0.040900000000000  
-0 0.040900000000000  
-1 0.075000000000000  
-2 0.075000000000000  
-0 0.075000000000000  
-1 0.034100000000000  
-2 0.034100000000000  
-0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
-1 0.034100000000000  
-2 0.034100000000000  
-0 0.034100000000000  
-1 0.075000000000000  
-2 0.075000000000000  
-0 0.075000000000000  
-1 0.040900000000000  
-2 0.040900000000000  
-0 0.040900000000000  
-1 1.300000000000000  
-2 1.300000000000000  
-0 1.300000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -2047,9 +1651,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2065,27 +1669,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -2098,9 +1693,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2116,27 +1711,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -2149,9 +1735,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2167,27 +1753,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -2200,9 +1777,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2218,15 +1795,12 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.013100000000000  
+2 0.013100000000000  
+0 0.013100000000000  
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
@@ -2245,9 +1819,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2263,27 +1837,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -2296,9 +1861,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2314,27 +1879,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -2347,9 +1903,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2365,27 +1921,18 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
@@ -2398,9 +1945,9 @@
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.034100000000000  
 2 0.034100000000000  
 0 0.034100000000000  
@@ -2416,48 +1963,33 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.038100000000000  
+2 0.038100000000000  
+0 0.038100000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.061900000000000  
-2 0.061900000000000  
-0 0.061900000000000  
+1 0.086900000000000  
+2 0.086900000000000  
+0 0.086900000000000  
 1 1.300000000000000  
 2 1.300000000000000  
 0 1.300000000000000  
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.003100000000000  
-2 0.003100000000000  
-0 0.003100000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.052900000000000  
-2 0.052900000000000  
-0 0.052900000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.156000000000000  
+2 0.156000000000000  
+0 0.156000000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.077500000000000  
 2 0.077500000000000  
 0 0.077500000000000  
@@ -2470,51 +2002,33 @@
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.125000000000000  
+2 0.125000000000000  
+0 0.125000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.100000000000000  
-2 0.100000000000000  
-0 0.100000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
+1 0.150000000000000  
+2 0.150000000000000  
+0 0.150000000000000  
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.092500000000000  
-2 0.092500000000000  
-0 0.092500000000000  
+1 0.117500000000000  
+2 0.117500000000000  
+0 0.117500000000000  
 1 0.075000000000000  
 2 0.075000000000000  
 0 0.075000000000000  
@@ -2527,9 +2041,9 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
 1 0.077500000000000  
 2 0.077500000000000  
 0 0.077500000000000  
@@ -2539,9 +2053,9 @@
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
@@ -2551,33 +2065,30 @@
 1 0.025000000000000  
 2 0.025000000000000  
 0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.650000000000000  
-2 0.650000000000000  
-0 0.650000000000000  
-1 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impx.txt
-2 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impy.txt
-0 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impz.txt
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.650022000000000  
+2 0.650022000000000  
+0 0.650022000000000  
+1 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impx_pec.txt
+2 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impy_pec.txt
+0 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impz_pec.txt
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impx.txt
-2 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impy.txt
-0 0.200000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Screen\\boosterII_screen_v1_impz.txt
+1 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impx_pec.txt
+2 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impy_pec.txt
+0 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impz_pec.txt
 1 0.040000000000000  
 2 0.040000000000000  
 0 0.040000000000000  
-1 0.025000000000000  
-2 0.025000000000000  
-0 0.025000000000000  
-1 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impx.txt
-2 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impy.txt
-0 0.150000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\Pump\\boosterII_pumpsmall_v2_impz.txt
-1 0.010000000000000  
-2 0.010000000000000  
-0 0.010000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.035000000000000  
+2 0.035000000000000  
+0 0.035000000000000  
 1 0.450000000000000  
 2 0.450000000000000  
 0 0.450000000000000  
@@ -2608,15 +2119,12 @@
 1 0.050000000000000  
 2 0.050000000000000  
 0 0.050000000000000  
-1 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wx.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impx.txt
-2 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wy.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impy.txt
-0 0.050000000000000 E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_wz.txt E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database\\Impedance\\BPM\\boosterII_bpm_10.9mm_impz.txt
-1 0.200000000000000  
-2 0.200000000000000  
-0 0.200000000000000  
-1 0.078750000000000  
-2 0.078750000000000  
-0 0.078750000000000  
+1 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impx.txt
+2 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impy.txt
+0 0.050000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\BPM\\boosterII_bpm_10.9mm_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\BPM\\boosterII_bpm_10.9mm_pec_impz.txt
+1 0.278750000000000  
+2 0.278750000000000  
+0 0.278750000000000  
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
@@ -2632,9 +2140,27 @@
 1 0.100000000000000  
 2 0.100000000000000  
 0 0.100000000000000  
-1 0.078750000000000  
-2 0.078750000000000  
-0 0.078750000000000  
-1 0.185000000000000  
-2 0.185000000000000  
-0 0.185000000000000  
+1 1.209490000000000  
+2 1.209490000000000  
+0 1.209490000000000  
+1 0.300000000000000  
+2 0.300000000000000  
+0 0.300000000000000  
+1 0.050000000000000  
+2 0.050000000000000  
+0 0.050000000000000  
+1 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impx_pec.txt
+2 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impy_pec.txt
+0 0.200000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Screen\\boosterII_screen_v2_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Screen\\boosterII_screen_v2_impz_pec.txt
+1 0.075000000000000  
+2 0.075000000000000  
+0 0.075000000000000  
+1 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wx.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impx.txt
+2 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wy.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impy.txt
+0 0.150000000000000 F:\\mad\\diamond2\\Impedance_database\\Wakes\\Pump\\boosterII_pumpsmall_v2_pec_wz.txt F:\\mad\\diamond2\\Impedance_database\\Impedance\\Pump\\boosterII_pumpsmall_v2_pec_impz.txt
+1 0.625000000000000  
+2 0.625000000000000  
+0 0.625000000000000  
+1 0.300000000000000  
+2 0.300000000000000  
+0 0.300000000000000  

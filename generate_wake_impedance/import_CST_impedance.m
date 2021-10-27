@@ -82,7 +82,7 @@ function struct = import_CST_impedance(file,sampling_points,betas)
     for i = 1:size(data_hor{1},1)
         
         filename = char(data_hor{4}(i));
-        fprintf(filename);
+        % fprintf(filename);
         
         if ~isempty(filename)
             fileID = fopen(filename);
@@ -108,7 +108,7 @@ function struct = import_CST_impedance(file,sampling_points,betas)
         end
 
     end
-    fprintf('Finished reading horizontal files. Read %d lines.\n\n',i');    
+    fprintf('Finished reading horizontal files. Read %d lines.\n\n',i);    
              
     %% Vertical impedance
     

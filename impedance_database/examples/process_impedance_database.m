@@ -1,8 +1,8 @@
 %% Process impedance database
 
-impedance_database_dir = 'E:\\DIAMOND\\Booster\\Booster_Models\\Impedance_Database';
+impedance_database_dir = 'F:\\mad\\diamond2\\Impedance_database';
 
-impedance_lattice_openIDs_noNEG = impedance_BR_11_Booster(0,3, impedance_database_dir);
+impedance_lattice_openIDs_noNEG = impedance_BR_14_Booster(0,3, impedance_database_dir);
 
 %% Create statistics
 
