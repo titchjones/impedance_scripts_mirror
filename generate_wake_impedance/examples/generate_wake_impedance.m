@@ -17,7 +17,7 @@ geometric_file = 'geometric_openIDS_noNEG.txt';
 % Beta flag: 0 = no normalisation, 1 = normalisation
 
 beta_flag = 1;
-beta_file = 'br14.txt';
+beta_file = 'beta_100_1nC.txt';
 
 %% Factors to multiply wakes/impedance
 % Factors for increasing strength of wakes (mostly for testing purposes)
@@ -77,7 +77,7 @@ end
 %% Generate resitive-wall wake/impedance
 
 if resistive_wall_flag
-    fprintf('Resistive Wall included!\n')
+    
     if wake_flag
         [AT_RW_wake,elegant_RW_wake] = generate_resistive_wall_wake(resistive_wall_flag,resistive_wall_file,sp,elegant_sp,beta_functions,convolution_bunch_length);
     end
@@ -90,7 +90,7 @@ end
 %% Generate geometric wake
 
 if geometric_flag
-    fprintf('Geometric effects included!\n')
+    
     if wake_flag
         [AT_geom_wake,elegant_geom_wake] = generate_geometric_wake(geometric_flag,geometric_file,sp,elegant_sp,beta_functions,convolution_bunch_length);        
     end
