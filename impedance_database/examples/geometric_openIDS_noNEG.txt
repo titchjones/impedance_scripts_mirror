@@ -1057,9 +1057,15 @@
 1 0.078750000000000  
 2 0.078750000000000  
 0 0.078750000000000  
-1 1.800000000000000  
-2 1.800000000000000  
-0 1.800000000000000  
+1 0.222000000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperupstream_impx.txt
+2 0.222000000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperupstream_impx.txt
+0 0.222000000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperupstream_impz.txt
+1 1.362400000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_ImpX_ReIm_Correct.txt
+2 1.362400000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_ImpY_ReIm_Correct.txt
+0 1.362400000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_ImpZ_ReIm_Correct.txt
+1 0.215600000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperdownstream_impx.txt
+2 0.215600000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperdownstream_impx.txt
+0 0.215600000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperdownstream_impz.txt
 1 0.078750000000000  
 2 0.078750000000000  
 0 0.078750000000000  
@@ -2131,9 +2137,15 @@
 1 0.078750000000000  
 2 0.078750000000000  
 0 0.078750000000000  
-1 1.800000000000000  
-2 1.800000000000000  
-0 1.800000000000000  
+1 0.222000000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperupstream_impx.txt
+2 0.222000000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperupstream_impx.txt
+0 0.222000000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperupstream_impz.txt
+1 1.362400000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_ImpX_ReIm_Correct.txt
+2 1.362400000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_ImpY_ReIm_Correct.txt
+0 1.362400000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_ImpZ_ReIm_Correct.txt
+1 0.215600000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperdownstream_impx.txt
+2 0.215600000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperdownstream_impx.txt
+0 0.215600000000000 F:\\mad\\diamond2\\Impedance_database F:\\mad\\diamond2\\Impedance_database\\Impedance\\NCC\\NCC_taperdownstream_impz.txt
 1 0.078750000000000  
 2 0.078750000000000  
 0 0.078750000000000  

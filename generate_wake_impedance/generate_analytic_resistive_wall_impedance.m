@@ -1,6 +1,8 @@
 function struct = generate_analytic_resistive_wall_impedance(file,sampling_points,betas)
 %% Process analytic resistive-wall input
 
+    disp(betas)
+
     %% Read in data
 
     % Read file
@@ -49,8 +51,11 @@ function struct = generate_analytic_resistive_wall_impedance(file,sampling_point
         element_length = data_hor(:,2);
         element_s = [0; cumsum(element_length)]';         
         average_betax = zeros(1,length(element_s)-1);         
+        disp('beta_x')
         for i = 1:length(element_s)-1                   
-            average_betax(i) = integrate(betas.betax,element_s(i+1),element_s(i))./element_length(i);            
+            average_betax(i) = integrate(betas.betax,element_s(i+1),element_s(i))./element_length(i);
+            disp(element_s(i))
+            disp(average_betax(i))
         end
     else
         average_betax = 1;
@@ -75,8 +80,11 @@ function struct = generate_analytic_resistive_wall_impedance(file,sampling_point
         element_length = data_ver(:,2);
         element_s = [0; cumsum(element_length)]';
         average_betay = zeros(1,length(element_s)-1);
+        disp('beta_y')
         for i = 1:length(element_s)-1                   
-            average_betay(i) = integrate(betas.betay,element_s(i+1),element_s(i))./element_length(i);            
+            average_betay(i) = integrate(betas.betay,element_s(i+1),element_s(i))./element_length(i);
+            disp(element_s(i))
+            disp(average_betay(i))
         end
     else
        average_betay = 1; 

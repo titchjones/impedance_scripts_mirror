@@ -607,6 +607,45 @@ DRIFT26 = {impedance(name, class, length, material, conductivity, thickness, ape
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
+name = 'DRIFT26UP';
+class = 'DRIFT';
+length = 0.07875;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+DRIFT26UP = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'DRIFT26DOWN';
+class = 'DRIFT';
+length = 0.07875;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+DRIFT26DOWN = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+  
 name = 'DRIFT27';
 class = 'DRIFT';
 length = 0.620227;
@@ -999,7 +1038,7 @@ BPM1 = {impedance(name, class, length, material, conductivity, thickness, apertu
 
 name = 'MAINCAV';
 class = 'CAVITY';
-length = 1.8;
+length = 1.3624;
 material = ['Copper'];
 conductivity = [5.96e7];
 thickness = [Inf];
@@ -1007,13 +1046,19 @@ apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
 RW_impedance_files = {};
 RW_wake_files = {};
 RW_k_factors = [0 0 0];
-xfile = [impedance_database_dir, '\\Impedance\\NCC\\NBCWF_ImpX_ReIm.txt'];
-yfile = [impedance_database_dir, '\\Impedance\\NCC\\NBCWF_ImpY_ReIm.txt'];
-zfile = [impedance_database_dir, '\\Impedance\\NCC\\NBCWF_ImpZ_ReIm.txt'];
+xfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_ImpX_ReIm_Correct.txt'];
+yfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_ImpY_ReIm_Correct.txt'];
+zfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_ImpZ_ReIm_Correct.txt'];
 geom_impedance_files = {join(xfile,'')...
                            join(yfile,'')...
                            join(zfile,'')};
 geom_wake_files = {};
+xfile = [impedance_database_dir, ''];
+yfile = [impedance_database_dir, ''];
+zfile = [impedance_database_dir, ''];
+geom_wake_files = {join(xfile,'')...
+                           join(yfile,'')...
+                           join(zfile,'')};
 geom_k_factors = [];
 geom_fit = struct([]);
 
@@ -1021,6 +1066,65 @@ MAINCAV = {impedance(name, class, length, material, conductivity, thickness, ape
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
+name = 'TAPERUP';
+class = 'TAPER';
+length = 0.222;
+material = ['Copper'];
+conductivity = [5.96e7];
+thickness = [Inf];
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = {};
+RW_wake_files = {};
+RW_k_factors = [0 0 0];
+xfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_taperupstream_impx.txt'];
+yfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_taperupstream_impx.txt'];
+zfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_taperupstream_impz.txt'];
+geom_impedance_files = {join(xfile,'')...
+                           join(yfile,'')...
+                           join(zfile,'')};
+geom_wake_files = {};
+xfile = [impedance_database_dir, ''];
+yfile = [impedance_database_dir, ''];
+zfile = [impedance_database_dir, ''];
+geom_wake_files = {join(xfile,'')...
+                           join(yfile,'')...
+                           join(zfile,'')};
+geom_k_factors = [];
+geom_fit = struct([]);
+
+TAPERUP = {impedance(name, class, length, material, conductivity, thickness, apertures,....
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'TAPERDOWN';
+class = 'TAPER';
+length = 0.2156;
+material = ['Copper'];
+conductivity = [5.96e7];
+thickness = [Inf];
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = {};
+RW_wake_files = {};
+RW_k_factors = [0 0 0];
+xfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_taperdownstream_impx.txt'];
+yfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_taperdownstream_impx.txt'];
+zfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_taperdownstream_impz.txt'];
+geom_impedance_files = {join(xfile,'')...
+                           join(yfile,'')...
+                           join(zfile,'')};
+geom_wake_files = {};
+xfile = [impedance_database_dir, ''];
+yfile = [impedance_database_dir, ''];
+zfile = [impedance_database_dir, ''];
+geom_wake_files = {join(xfile,'')...
+                           join(yfile,'')...
+                           join(zfile,'')};
+geom_k_factors = [];
+geom_fit = struct([]);
+
+TAPERDOWN = {impedance(name, class, length, material, conductivity, thickness, apertures,....
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
 %% Valves
 
@@ -1169,7 +1273,7 @@ QUAD; DRIFT12; SEXT; DRIFT11; SEXT; DRIFT10; HCM; DRIFT09; VCM; DRIFT06; VPCHAMB
 DRIFT08; QUAD; DRIFT07; BPM1; DRIFT02; BB; DRIFT06; VPCHAMBER; DRIFT23; EXTKICK; 
 DRIFT03; EXTKICK; DRIFT24; VPCHAMBER; DRIFT04; QUAD; DRIFT02; HCM; DRIFT02; VCM; 
 DRIFT02; QUAD; DRIFT03; QUAD; DRIFT02; BPM1; DRIFT11; EXTKICK; DRIFT25; VGVALVE; 
-DRIFT26; MAINCAV; DRIFT26; VGVALVE; DRIFT27; SCREEN2; DRIFT02; EXTSEPT; DRIFT28; 
+DRIFT26; TAPERUP; MAINCAV; TAPERDOWN; DRIFT26; VGVALVE; DRIFT27; SCREEN2; DRIFT02; EXTSEPT; DRIFT28; 
 BPM1; DRIFT02; QUAD; DRIFT03; QUAD; DRIFT02; VCM; DRIFT02; HCM; DRIFT02; QUAD; DRIFT04; 
 VPCHAMBER; DRIFT29; VPCHAMBER; DRIFT06; BB; DRIFT07; BPM1; DRIFT02; QUAD; DRIFT06; 
 VPCHAMBER; DRIFT08; VCM; DRIFT09; HCM; DRIFT10; SEXT; DRIFT11; SEXT; DRIFT12; QUAD; 
@@ -1201,7 +1305,7 @@ DRIFT22; BPM1; DRIFT08; VCM; DRIFT09; HCM; DRIFT10; SEXT; DRIFT12; QUAD; DRIFT12
 SEXT; DRIFT11; SEXT; DRIFT10; HCM; DRIFT09; VCM; DRIFT06; VPCHAMBER; DRIFT08; QUAD; 
 DRIFT07; BPM1; DRIFT02; BB; DRIFT06; VPCHAMBER; DRIFT30; SCREEN2; DRIFT02; SCREEN2; 
 DRIFT13; VPCHAMBER; DRIFT04; QUAD; DRIFT02; HCM; DRIFT02; VCM; DRIFT02; QUAD; DRIFT03; 
-QUAD; DRIFT02; BPM1; DRIFT31; VGVALVE; DRIFT26; MAINCAV; DRIFT26; VGVALVE; DRIFT32; 
+QUAD; DRIFT02; BPM1; DRIFT31; VGVALVE; DRIFT26; TAPERUP; MAINCAV; TAPERDOWN; DRIFT26; VGVALVE; DRIFT32; 
 INJSEPT; DRIFT02; SCREEN2; DRIFT21; VPCHAMBER; DRIFT33; INJKICK]
 
 IMPRING = LATTICE;
