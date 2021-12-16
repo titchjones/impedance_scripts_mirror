@@ -113,9 +113,9 @@ end
 %% Drifts
 
 % --- Additional drifts ---
-name = 'DRIFT01';
+name = 'D1';
 class = 'DRIFT';
-length = 0.345739;
+length = 0.3;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -128,220 +128,11 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT01 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D1 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT02';
-class = 'DRIFT';
-length = 0.05;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT02 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT03';
-class = 'DRIFT';
-length = 0.2;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT03 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT04';
-class = 'DRIFT';
-length = 0.035;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT04 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT05';
-class = 'DRIFT';
-length = 1.14002;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT05 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT06';
-class = 'DRIFT';
-length = 0.025;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT06 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT07';
-class = 'DRIFT';
-length = 0.1;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT07 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT08';
-class = 'DRIFT';
-length = 0.0775;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT08 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT09';
-class = 'DRIFT';
-length = 0.085;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT09 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT10';
-class = 'DRIFT';
-length = 0.1175;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT10 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT11';
-class = 'DRIFT';
-length = 0.15;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT11 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT12';
-class = 'DRIFT';
-length = 0.125;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT12 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT13';
+name = 'D10';
 class = 'DRIFT';
 length = 0.04;
 material = coating_material;
@@ -356,13 +147,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT13 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D10 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT14';
+name = 'D11';
 class = 'DRIFT';
-length = 0.0466;
+length = 0.025;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -375,13 +166,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT14 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D11 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT15';
+name = 'D12';
 class = 'DRIFT';
-length = 0.0869;
+length = 0.0529;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -394,11 +185,68 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT15 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D12 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT16';
+name = 'D13';
+class = 'DRIFT';
+length = 0.0925;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D13 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D14';
+class = 'DRIFT';
+length = 0.085;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D14 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D15';
+class = 'DRIFT';
+length = 0.0031;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D15 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D16';
 class = 'DRIFT';
 length = 0.0409;
 material = coating_material;
@@ -413,11 +261,11 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT16 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D16 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT17';
+name = 'D17';
 class = 'DRIFT';
 length = 0.0341;
 material = coating_material;
@@ -432,13 +280,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT17 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D17 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT18';
+name = 'D18';
 class = 'DRIFT';
-length = 0.0381;
+length = 0.01;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -451,30 +299,11 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT18 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D18 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT19';
-class = 'DRIFT';
-length = 0.0131;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT19 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT20';
+name = 'D19';
 class = 'DRIFT';
 length = 0.0619;
 material = coating_material;
@@ -489,13 +318,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT20 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D19 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT21';
+name = 'D2';
 class = 'DRIFT';
-length = 0.075;
+length = 0.2;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -508,13 +337,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT21 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D2 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT22';
+name = 'D20';
 class = 'DRIFT';
-length = 0.156;
+length = 0.03;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -527,13 +356,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT22 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D20 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT23';
+name = 'D21';
 class = 'DRIFT';
-length = 0.175022;
+length = 0.0775;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -546,13 +375,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT23 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D21 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT24';
+name = 'D22';
 class = 'DRIFT';
-length = 0.165;
+length = 0.05;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -565,13 +394,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT24 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D22 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT25';
+name = 'D24';
 class = 'DRIFT';
-length = 0.12875;
+length = 0.0216;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -584,11 +413,163 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT25 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D24 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT26';
+name = 'D25';
+class = 'DRIFT';
+length = 0.2914775;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D25 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D26A';
+class = 'DRIFT';
+length = 0.137101525665929;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D26A = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D26B';
+class = 'DRIFT';
+length = 0.154375974334071;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D26B = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D3';
+class = 'DRIFT';
+length = 0.015;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D3 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D4';
+class = 'DRIFT';
+length = 1.;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D4 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D5';
+class = 'DRIFT';
+length = 0.15;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D5 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D6';
+class = 'DRIFT';
+length = 0.1;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D6 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D7';
+class = 'DRIFT';
+length = 0.65;
+material = coating_material;
+conductivity = coating_conductivity;
+thickness = coating_thickness;
+apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
+RW_impedance_files = RW_impedance_circular;
+RW_wake_files = RW_wake_circular;
+RW_k_factors = [0 0 0];
+geom_impedance_files = {};
+geom_wake_files = {};
+geom_k_factors = [0 0 0];
+geom_fit = struct([]);
+ 
+D7 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
+      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
+
+name = 'D8';
 class = 'DRIFT';
 length = 0.07875;
 material = coating_material;
@@ -603,13 +584,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT26 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D8 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT26UP';
+name = 'D9';
 class = 'DRIFT';
-length = 0.07875;
+length = 0.185;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -622,13 +603,13 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT26UP = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+D9 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
-name = 'DRIFT26DOWN';
+name = 'DBR14';
 class = 'DRIFT';
-length = 0.07875;
+length = 0.000021877746295;
 material = coating_material;
 conductivity = coating_conductivity;
 thickness = coating_thickness;
@@ -641,141 +622,7 @@ geom_wake_files = {};
 geom_k_factors = [0 0 0];
 geom_fit = struct([]);
  
-DRIFT26DOWN = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-  
-name = 'DRIFT27';
-class = 'DRIFT';
-length = 0.620227;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT27 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT28';
-class = 'DRIFT';
-length = 0.415;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT28 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT29';
-class = 'DRIFT';
-length = 1.14002;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT29 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT30';
-class = 'DRIFT';
-length = 0.650022;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT30 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT31';
-class = 'DRIFT';
-length = 0.27875;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT31 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT32';
-class = 'DRIFT';
-length = 1.20949;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT32 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
-      'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
-      'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
-
-name = 'DRIFT33';
-class = 'DRIFT';
-length = 0.625;
-material = coating_material;
-conductivity = coating_conductivity;
-thickness = coating_thickness;
-apertures = [-0.01 0.01 -0.01 0.01; -0.01 0.01 -0.01 0.01];
-RW_impedance_files = RW_impedance_circular;
-RW_wake_files = RW_wake_circular;
-RW_k_factors = [0 0 0];
-geom_impedance_files = {};
-geom_wake_files = {};
-geom_k_factors = [0 0 0];
-geom_fit = struct([]);
- 
-DRIFT33 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
+DBR14 = {impedance(name, class, length, material, conductivity, thickness, apertures,...
       'RW_impedance_files',RW_impedance_files,'RW_wake_files',RW_wake_files,'RW_k_factors',RW_k_factors,...
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
@@ -1052,6 +899,8 @@ zfile = [impedance_database_dir, '\\Impedance\\NCC\\NCC_ImpZ_ReIm_Correct.txt'];
 geom_impedance_files = {join(xfile,'')...
                            join(yfile,'')...
                            join(zfile,'')};
+% Disable Cavities for now! 2021-12-16
+geom_impedance_files = {};
 geom_wake_files = {};
 xfile = [impedance_database_dir, ''];
 yfile = [impedance_database_dir, ''];
@@ -1241,72 +1090,62 @@ CBREAK = {impedance(name, class, length, material, conductivity, thickness, aper
       'Geom_impedance_files',geom_impedance_files,'Geom_wake_files',geom_wake_files,'Geom_k_factors',geom_k_factors,'Geom_fit',geom_fit)};
 
 %% Cells
-LATTICE = [DRIFT01; BPM1; DRIFT02; QUAD; DRIFT03; QUAD; DRIFT02; VCM; DRIFT02; HCM; 
-DRIFT02; QUAD; DRIFT04; VPCHAMBER; DRIFT05; VPCHAMBER; DRIFT06; BB; DRIFT07; BPM1; 
-DRIFT02; QUAD; DRIFT06; VPCHAMBER; DRIFT08; VCM; DRIFT09; HCM; DRIFT10; SEXT; DRIFT11; 
-SEXT; DRIFT12; QUAD; DRIFT12; SEXT; DRIFT10; HCM; DRIFT09; VCM; DRIFT13; BPM1; DRIFT14; 
-VPCHAMBER; DRIFT04; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT19; VGVALVE; DRIFT20; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT21; CBREAK; DRIFT20; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT19; VGVALVE; DRIFT20; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT06; VPCHAMBER; DRIFT22; BPM1; DRIFT08; VCM; DRIFT09; HCM; DRIFT10; SEXT; DRIFT12; 
-QUAD; DRIFT12; SEXT; DRIFT11; SEXT; DRIFT10; HCM; DRIFT09; VCM; DRIFT06; VPCHAMBER; 
-DRIFT08; QUAD; DRIFT07; BPM1; DRIFT02; BB; DRIFT06; VPCHAMBER; DRIFT23; EXTKICK; 
-DRIFT03; EXTKICK; DRIFT24; VPCHAMBER; DRIFT04; QUAD; DRIFT02; HCM; DRIFT02; VCM; 
-DRIFT02; QUAD; DRIFT03; QUAD; DRIFT02; BPM1; DRIFT11; EXTKICK; DRIFT25; VGVALVE; 
-DRIFT26; TAPERUP; MAINCAV; TAPERDOWN; DRIFT26; VGVALVE; DRIFT27; SCREEN2; DRIFT02; EXTSEPT; DRIFT28; 
-BPM1; DRIFT02; QUAD; DRIFT03; QUAD; DRIFT02; VCM; DRIFT02; HCM; DRIFT02; QUAD; DRIFT04; 
-VPCHAMBER; DRIFT29; VPCHAMBER; DRIFT06; BB; DRIFT07; BPM1; DRIFT02; QUAD; DRIFT06; 
-VPCHAMBER; DRIFT08; VCM; DRIFT09; HCM; DRIFT10; SEXT; DRIFT11; SEXT; DRIFT12; QUAD; 
-DRIFT12; SEXT; DRIFT10; HCM; DRIFT09; VCM; DRIFT13; BPM1; DRIFT14; VPCHAMBER; DRIFT04; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT19; 
-VGVALVE; DRIFT20; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT21; CBREAK; DRIFT20; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT19; VGVALVE; DRIFT20; BD; DRIFT16; VCM; DRIFT17; 
-BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; 
-DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; 
-SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; DRIFT16; BF; DRIFT06; 
-VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT16; VCM; DRIFT17; BPM1; DRIFT17; HCM; 
-DRIFT16; BF; DRIFT06; VPCHAMBER; DRIFT18; SEXT; DRIFT15; BD; DRIFT06; VPCHAMBER; 
-DRIFT22; BPM1; DRIFT08; VCM; DRIFT09; HCM; DRIFT10; SEXT; DRIFT12; QUAD; DRIFT12; 
-SEXT; DRIFT11; SEXT; DRIFT10; HCM; DRIFT09; VCM; DRIFT06; VPCHAMBER; DRIFT08; QUAD; 
-DRIFT07; BPM1; DRIFT02; BB; DRIFT06; VPCHAMBER; DRIFT30; SCREEN2; DRIFT02; SCREEN2; 
-DRIFT13; VPCHAMBER; DRIFT04; QUAD; DRIFT02; HCM; DRIFT02; VCM; DRIFT02; QUAD; DRIFT03; 
-QUAD; DRIFT02; BPM1; DRIFT31; VGVALVE; DRIFT26; TAPERUP; MAINCAV; TAPERDOWN; DRIFT26; VGVALVE; DRIFT32; 
-INJSEPT; DRIFT02; SCREEN2; DRIFT21; VPCHAMBER; DRIFT33; INJKICK]
+LATTICE = [D26B; D2; BPM1; D22; QUAD; D2; QUAD; D22; VCM; D22; HCM; D22; QUAD; D18; 
+D11; VPCHAMBER; D4; D6; D10; DBR14; VPCHAMBER; D11; BB; D6; BPM1; D22; QUAD; D11; 
+VPCHAMBER; D21; VCM; D14; HCM; D13; D11; SEXT; D11; D6; D11; SEXT; D11; D6; QUAD; 
+D6; D11; SEXT; D11; D13; HCM; D14; VCM; D10; BPM1; D24; D11; VPCHAMBER; D18; D11; 
+SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; D15; 
+D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; VGVALVE; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D19; CBREAK; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; VGVALVE; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D11; VPCHAMBER; D15; D6; D12; BPM1; D21; VCM; 
+D14; HCM; D13; D11; SEXT; D11; D6; QUAD; D6; D11; SEXT; D11; D6; D11; SEXT; D11; 
+D13; HCM; D14; VCM; D11; VPCHAMBER; D21; QUAD; D6; BPM1; D22; BB; D11; VPCHAMBER; 
+DBR14; D5; D11; EXTKICK; D2; EXTKICK; D3; D5; VPCHAMBER; D11; D18; QUAD; D22; HCM; 
+D22; VCM; D22; QUAD; D2; QUAD; D22; BPM1; D6; D11; D11; EXTKICK; D11; D11; D8; VGVALVE; 
+D8; TAPERUP; MAINCAV; TAPERDOWN; D8; VGVALVE; D8; D25; D2; D22; SCREEN2; D22; EXTSEPT; D20; D2; D9; BPM1; 
+D22; QUAD; D2; QUAD; D22; VCM; D22; HCM; D22; QUAD; D18; D11; VPCHAMBER; D10; D6; 
+D4; DBR14; VPCHAMBER; D11; BB; D6; BPM1; D22; QUAD; D11; VPCHAMBER; D21; VCM; D14; 
+HCM; D13; D11; SEXT; D11; D6; D11; SEXT; D11; D6; QUAD; D6; D11; SEXT; D11; D13; 
+HCM; D14; VCM; D10; BPM1; D24; D11; VPCHAMBER; D18; D11; SEXT; D11; D19; BD; D16; 
+VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; D15; D18; D11; SEXT; D11; D19; 
+BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; D15; D18; D11; SEXT; 
+D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; D15; D18; D11; 
+SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; D15; 
+D18; VGVALVE; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; D15; 
+D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D19; CBREAK; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; VGVALVE; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D16; VCM; D17; BPM1; D17; HCM; D16; BF; D11; VPCHAMBER; 
+D15; D18; D11; SEXT; D11; D19; BD; D11; VPCHAMBER; D15; D6; D12; BPM1; D21; VCM; 
+D14; HCM; D13; D11; SEXT; D11; D6; QUAD; D6; D11; SEXT; D11; D6; D11; SEXT; D11; 
+D13; HCM; D14; VCM; D11; VPCHAMBER; D21; QUAD; D6; BPM1; D22; BB; D11; VPCHAMBER; 
+DBR14; D7; SCREEN2; D22; SCREEN2; D10; VPCHAMBER; D11; D18; QUAD; D22; HCM; D22; 
+VCM; D22; QUAD; D2; QUAD; D22; BPM1; D2; D8; VGVALVE; D8; TAPERUP; MAINCAV; TAPERDOWN; D8; VGVALVE; D8; 
+D9; D1; D1; D2; D26A; INJSEPT; D22; SCREEN2; D22; D11; VPCHAMBER; D1; D11; D1; INJKICK];
 
 IMPRING = LATTICE;
 
